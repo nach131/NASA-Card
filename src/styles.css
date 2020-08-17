@@ -1,14 +1,27 @@
+#root {
+  background: #222f3e;
+}
+
 .badge{
   font-size: 60%;
 }
 .card {
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
+  border-color: #6c757d;
+  /* box-shadow: 4px 4px 18px -9px rgba(166,166,166,0.66)!important; */
+}
+.card-body {
+background-color: black;
+padding-top: 1rem;
 }
 .card-title {
   font-size: 0.9rem;
+  color:#db362d ;
 }
 p.card-text {
+  color:white;
+  font-size: 0.9rem;
   line-height: 1.2rem;
   max-height: 6rem;
   overflow: hidden;
@@ -23,3 +36,4 @@ p.card-text:hover {
   background-size: cover;
   background-position: center center;
 }
+
