@@ -1,6 +1,5 @@
 import React from "react";
 //react bootstrap components
-import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -16,7 +15,6 @@ class CardListItem extends React.Component {
           <Card.Body>
             <Card.Title className="mb-0">{this.props.item.data[0].nasa_id}</Card.Title>
             <div className="badges mb-2">
-
               <span className="badge badge-warning">{this.props.item.data[0].keywords + " "}</span>
             </div>
             {/* <p>TITULO:{postData.data[0].title}</p> */}
