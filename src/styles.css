@@ -36,4 +36,8 @@ p.card-text:hover {
   background-size: cover;
   background-position: center center;
 }
-
+ul.keyword{
+  display: inline;
+  line-height: 1;
+  margin-right: 4px;
+}

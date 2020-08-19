@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://images-api.nasa.gov/search?q=earth&page=35")
+    fetch("https://images-api.nasa.gov/search?q=curiosity&page=5")
       .then(response => response.json())
       // .then(collection => {this.setState({ cards: collection})});
       .then(responseData => {
