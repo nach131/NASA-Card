@@ -11,6 +11,7 @@ import Row from "react-bootstrap/Row";
 
 //data for post
 // import data from "./data.json";
+import Carousel from './components/Carousel';
 
 export default class DefaultPost extends Component {
 	render() {
@@ -19,7 +20,7 @@ export default class DefaultPost extends Component {
 				<Container fluid={true}>
 					<Row>
 
-						<div>vacio</div>
+					Carousel
 
 
 					</Row>
