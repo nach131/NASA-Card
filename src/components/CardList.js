@@ -13,8 +13,8 @@ class CardListItem extends React.Component {
     if (this.props.item.data[0].keywords) {
       wordToRender = this.props.item.data[0].keywords.map((word, i) => {
         return (
-          <ul className="list-unstyled keyword">
-            <span key={i} className="badge badge-warning" >
+          <ul key={i} className="list-unstyled keyword">
+            <span className="badge badge-warning" >
               <li>
                 {word}
               </li>
