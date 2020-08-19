@@ -47,7 +47,13 @@ class CardList extends React.Component {
   render() {
     return (
       <Container fluid={true}>
-
+        {this.props.loading && (
+          <div class="d-flex justify-content-center">
+          <div class="spinner-border text-warning" role="status">
+            <span class="sr-only">Cargando...</span>
+          </div>
+          </div>
+        )}
         <ul className="list-unstyled">
           <Row>
             {this.props.items.map((item, i) => {

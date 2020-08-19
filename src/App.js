@@ -43,9 +43,11 @@ class App extends Component {
 
   render() {
     const items = this.state.items;
+    const loading = this.state.loading;
+    const error = this.state.error;
     return (
       <Album>
-        <CardList items={items} />
+        <CardList items={items} loading={loading} error={error}/>
       </Album>
     );
   }
