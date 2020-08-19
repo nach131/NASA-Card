@@ -1,6 +1,5 @@
 import React from "react";
 //react bootstrap components
-import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -11,7 +10,7 @@ class CardListItem extends React.Component {
     return (
       <>
 
-        <Card key={this.props.item.data[0].nasa_id} className="mb-4 shadow-sm">
+        <Card  className="mb-4 shadow-sm">
           <Card.Img variant="top" src={this.props.item.links[0].href} />
           <Card.Body>
             <Card.Title className="mb-0">{this.props.item.data[0].nasa_id}</Card.Title>
@@ -36,10 +35,10 @@ class CardList extends React.Component {
 
         <ul className="list-unstyled">
           <Row>
-            {this.props.items.map(item => {
+            {this.props.items.map((item,i) => {
               return (
-                <div className="col-xl-3 col-md-4">
-                  <li key={item.id} >
+                <div key={i} className="col-xl-3 col-md-4">
+                  <li >
                     <CardListItem item={item} />
                   </li>
                 </div>
