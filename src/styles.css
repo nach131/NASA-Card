@@ -2,7 +2,7 @@
   background: #222f3e;
 }
 
-.badge{
+.badge {
   font-size: 60%;
 }
 .card {
@@ -12,20 +12,21 @@
   /* box-shadow: 4px 4px 18px -9px rgba(166,166,166,0.66)!important; */
 }
 .card-body {
-background-color: black;
-padding-top: 1rem;
+  background-color: black;
+  padding-top: 1rem;
 }
 .card-title {
   font-size: 0.9rem;
-  color:#db362d ;
+  color: #db362d;
 }
 p.card-text {
-  color:white;
+  color: white;
   font-size: 0.9rem;
   line-height: 1.2rem;
   max-height: 6rem;
   overflow: hidden;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  text-align: justify;
 }
 
 p.card-text:hover {
@@ -36,4 +37,8 @@ p.card-text:hover {
   background-size: cover;
   background-position: center center;
 }
-
+ul.keyword {
+  display: inline;
+  line-height: 1;
+  margin-right: 4px;
+}
