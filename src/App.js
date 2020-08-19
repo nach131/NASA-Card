@@ -5,26 +5,23 @@ import React, { Component } from "react";
 // import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Header from './components/Header'
 
 //scss
 // import style from "./styles.module.scss";
 
 //data for post
 // import data from "./data.json";
-import Carousel from './components/Carousel';
 
 export default class DefaultPost extends Component {
 	render() {
 		return (
 			<>
-				<Container fluid={true}>
-					<Row>
+		
 
-					Carousel
+					<Header/>
 
 
-					</Row>
-				</Container>
 			</>
 		);
 	}
