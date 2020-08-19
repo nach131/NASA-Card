@@ -25,17 +25,35 @@ class Header extends React.Component {
 
   componentDidMount() {
     this.fetchFotoDay();
+
+    
   }
 
-  fetchFotoDay = async () => {
-    const Url =
-      "https://api.nasa.gov/planetary/apod?api_key=EUDrgZhfxHUUr5GwtaCDh0FjiAxQsboz8BoR7MCY&date=";
-    // console.log(Url + this.state.diaHoy)
-    this.setState({ loading: true, error: null });
+  masDoceDias() {
+  
+    var dateFormat = require('dateformat');
+    var current = new Date(); //Hoy
+    var saltoDay = new Date(current.getTime() - 1036800000); // - 1 day in ms 86400000
+    return dateFormat(saltoDay, "yyyy-mm-dd")
 
+  }
+
+
+
+  // componentDidUpdate(){
+  //   this.fetchFotoDay();
+  // }
+  fetchFotoDay = async () => {
+    const Url = 
+      "https://api.nasa.gov/planetary/apod?api_key=EUDrgZhfxHUUr5GwtaCDh0FjiAxQsboz8BoR7MCY&date=";
+
+     
+      console.log(Url + this.masDoceDias());
+
+    this.setState({ loading: true, error: null });
     try {
-      // const respuesta = await fetch(Url + this.state.diaHoy);
-      const respuesta = await fetch(Url + '2020-03-01');
+      const respuesta = await fetch(Url + this.state.diaHoy);
+      // const respuesta = await fetch(Url + this.masDoceDias());
       const respuestaData = await respuesta.json();
       console.log(respuestaData);
       this.setState({
@@ -83,7 +101,8 @@ class Header extends React.Component {
           </Carousel.Caption>
         </CarouselItem>
         <CarouselItem>
-          <img className="d-block w-100" src={IMG3} alt="" /><Carousel.Caption>
+          <img className="d-block w-100" src={IMG3} alt="" />
+          <Carousel.Caption>
             <h3 className="text-right">
               {this.state.fotodia.title}
             </h3>
@@ -93,7 +112,8 @@ class Header extends React.Component {
           </Carousel.Caption>
         </CarouselItem>
         <CarouselItem>
-          <img className="d-block w-100" src={IMG4} alt="" /><Carousel.Caption>
+          <img className="d-block w-100" src={IMG4} alt="" />
+          <Carousel.Caption>
             <h3 className="text-right">
               {this.state.fotodia.title}
             </h3>
