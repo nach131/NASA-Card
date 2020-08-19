@@ -52,9 +52,12 @@ class App extends Component {
     return (
       <Album>
         <CardList items={items} loading={loading} error={error}/>
+        
+        <div className="col text-center">
         {!this.state.loading && (
-        <Button onClick={() => this.fetchFoto()}>Mas</Button>
+        <Button className="btn-next" onClick={() => this.fetchFoto()}>Mas</Button>
         )}
+        </div>
       </Album>
     );
   }

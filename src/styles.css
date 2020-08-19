@@ -42,3 +42,10 @@ ul.keyword {
   line-height: 1;
   margin-right: 4px;
 }
+.btn-next{
+  background-color: #db362d;
+  color: white;
+}
+.btn-next:hover{
+  background-color: #9c2720;
+}
