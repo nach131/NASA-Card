@@ -34,7 +34,8 @@ class Header extends React.Component {
     this.setState({ loading: true, error: null });
 
     try {
-      const respuesta = await fetch(Url + this.state.diaHoy);
+      // const respuesta = await fetch(Url + this.state.diaHoy);
+      const respuesta = await fetch(Url + '2020-03-01');
       const respuestaData = await respuesta.json();
       console.log(respuestaData);
       this.setState({

@@ -64,20 +64,11 @@ img.d-block.w-100 {
 }
 .carousel-caption {
   position: absolute;
-  top: 50%;
   left: 0;
   right: 0;
   padding-top: 0px;
   padding-bottom: 0px;
   bottom: 5px;
-}
-.carousel-caption h1 {
-  font-size: 3rem;
-  text-shadow: 0.1rem 0.1rem 0.3rem black;
-}
-.carousel-caption p {
-  font-size: 1.5rem;
-  text-shadow: 0.1rem 0.1rem black;
 }
 
 .carousel-item:after {
@@ -88,7 +79,7 @@ img.d-block.w-100 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
 }
 .carousel-caption p {
   font-family: "Raleway", sans-serif;
