@@ -48,9 +48,9 @@ class CardList extends React.Component {
     return (
       <Container fluid={true}>
         {this.props.loading && (
-          <div class="d-flex justify-content-center">
-          <div class="spinner-border text-warning" role="status">
-            <span class="sr-only">Cargando...</span>
+          <div className="d-flex justify-content-center">
+          <div className="spinner-border text-warning" role="status">
+            <span className="sr-only">Cargando...</span>
           </div>
           </div>
         )}
