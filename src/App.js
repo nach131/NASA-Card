@@ -6,6 +6,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      loading: true,
+      error: null,
       href: "",
       items: [],
       total_hits: "",
@@ -14,27 +16,29 @@ class App extends Component {
 
   componentDidMount() {
     this.fetchFoto();
-    // fetch("https://images-api.nasa.gov/search?q=curiosity&page=15")
-    //   .then(response => response.json())
-    //   .then(responseData => {
-    //     this.setState({
-    //       href: responseData.collection.href,
-    //       items: responseData.collection.items,
-    //       total_hits: responseData.collection.metadata.total_hits,
-    //     });
-    //   });
+
   }
 
   fetchFoto = async () => {
-    const respuesta = await fetch(
-      'https://images-api.nasa.gov/search?q=curiosity&page=5'
-    );
-    const responseData = await respuesta.json();
-    this.setState({
-      href: responseData.collection.href,
-      items: responseData.collection.items,
-      total_hits: responseData.collection.metadata.total_hits,
-    });
+    this.setState({ loading: true, error: null })
+
+    try {
+      const respuesta = await fetch(
+        'https://images-api.nasa.gov/search?q=curiosity&page=5'
+      );
+      const responseData = await respuesta.json();
+      this.setState({
+        loading:false,
+        href: responseData.collection.href,
+        items: responseData.collection.items,
+        total_hits: responseData.collection.metadata.total_hits,
+      });
+    } catch (error){
+      this.setState({
+        loading:false,
+        error:error,       
+      })
+    }
   };
 
   render() {
