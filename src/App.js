@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import CardList from "./components/CardList";
 import Album from "./components/Album";
+import Button from "react-bootstrap/Button";
+
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      nextPage: 1,
       loading: true,
       error: null,
       href: "",
@@ -24,7 +27,7 @@ class App extends Component {
 
     try {
       const respuesta = await fetch(
-        'https://images-api.nasa.gov/search?q=curiosity&page=5'
+        `https://images-api.nasa.gov/search?q=curiosity&page=${this.state.nextPage}`
       );
       const responseData = await respuesta.json();
       this.setState({
@@ -32,6 +35,7 @@ class App extends Component {
         href: responseData.collection.href,
         items: responseData.collection.items,
         total_hits: responseData.collection.metadata.total_hits,
+        nextPage: this.state.nextPage +1,
       });
     } catch (error){
       this.setState({
@@ -48,6 +52,9 @@ class App extends Component {
     return (
       <Album>
         <CardList items={items} loading={loading} error={error}/>
+        {!this.state.loading && (
+        <Button onClick={() => this.fetchFoto()}>Mas</Button>
+        )}
       </Album>
     );
   }
