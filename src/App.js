@@ -3,8 +3,7 @@ import React, { Component } from "react";
 //react bootstrap components
 // import CardDeck from "react-bootstrap/CardDeck";
 // import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+
 import Header from './components/Header'
 
 //scss
