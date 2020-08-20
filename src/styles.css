@@ -2,7 +2,7 @@
   background: #222f3e;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
 h1,
 h2,
@@ -13,7 +13,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -34,6 +34,8 @@ p {
 .card-title {
   font-size: 0.9rem;
   color: #db362d;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
 }
 p.card-text {
   color: white;
@@ -54,10 +56,14 @@ p.card-text:hover {
   background-position: center center;
 }
 ul.keyword {
+  font-family: "Raleway", sans-serif;
   display: inline;
+  font-weight: 100;
   line-height: 1;
   margin-right: 4px;
+  padding-inline-start: 0px;
 }
+
 .btn-next{
   background-color: #db362d;
   color: white;

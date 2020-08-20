@@ -1,5 +1,5 @@
 {
-  "name": "how-to-access-nested-json-object-inside-array-in-react-js",
+  "name": "NASA-Card",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -7,10 +7,11 @@
   "dependencies": {
     "bootstrap": "4.4.1",
     "dateformat": "^3.0.3",
-    "node-sass": "4.13.1",
+    "eslint": "^7.7.0",
     "react": "16.12.0",
     "react-bootstrap": "1.0.0-beta.16",
     "react-dom": "16.12.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3"
   },
   "devDependencies": {
