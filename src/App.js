@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
 //react bootstrap components
 // import CardDeck from "react-bootstrap/CardDeck";
 // import Card from "react-bootstrap/Card";
 
-import Header from './components/Header'
+import Header_data from './components/Header_data'
+import Header_api from './components/Header_api'
 
 //scss
 // import style from "./styles.module.scss";
@@ -12,16 +13,15 @@ import Header from './components/Header'
 //data for post
 // import data from "./data.json";
 
-export default class DefaultPost extends Component {
-	render() {
+function App() {
 		return (
 			<>
 		
 
-					<Header/>
+					<Header_api/>
 
 
 			</>
 		);
-	}
 }
+export default App;

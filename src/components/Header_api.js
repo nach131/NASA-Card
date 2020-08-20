@@ -1,10 +1,13 @@
+// Peticion API ok, trae los datoa Array FotosDias
+
+
 import React from "react";
 import { Carousel, CarouselItem } from "react-bootstrap";
 import IMG2 from "../images/pexels-pixabay-256152.jpg";
 import IMG3 from "../images/pexels-spacex-23789.jpg";
 import IMG4 from "../images/pexels-spacex-60132.jpg";
 
-class Header extends React.Component {
+class Header_api extends React.Component {
   constructor(props) {
     var today = new Date(),
       date =
@@ -67,58 +70,29 @@ class Header extends React.Component {
     return (
       <Carousel
         id="carousel"
-        interval="7000"
+        interval="60000"
         className="carousel-inner slider"
         data-pause="false"
         controls=""
         indicators=""
       >
+        {this.state.fotosDias.map((postData, i)=>(
         <CarouselItem>
-          <img className="d-block w-100" src={this.state.fotodia.url} alt="" />
+
+          <img className="d-block w-100" src={postData.url} alt="" />
           <Carousel.Caption>
             <h3 className="text-right">
-              {this.state.fotodia.title}
+              {postData.title}
             </h3>
             <p>
-              {this.state.fotodia.explanation}
+              {postData.explanation}
             </p>
           </Carousel.Caption>
         </CarouselItem>
-        <CarouselItem>
-          <img className="d-block w-100" src={IMG2} alt="" />
-          <Carousel.Caption>
-            <h3 className="text-right">
-              {this.state.fotodia.title}
-            </h3>
-            <p>
-              {this.state.fotodia.explanation}
-            </p>
-          </Carousel.Caption>
-        </CarouselItem>
-        <CarouselItem>
-          <img className="d-block w-100" src={IMG3} alt="" />
-          <Carousel.Caption>
-            <h3 className="text-right">
-              {this.state.fotodia.title}
-            </h3>
-            <p>
-              {this.state.fotodia.explanation}
-            </p>
-          </Carousel.Caption>
-        </CarouselItem>
-        <CarouselItem>
-          <img className="d-block w-100" src={IMG4} alt="" />
-          <Carousel.Caption>
-            <h3 className="text-right">
-              {this.state.fotodia.title}
-            </h3>
-            <p>
-              {this.state.fotodia.explanation}
-            </p>
-          </Carousel.Caption>
-        </CarouselItem>
+        ))}
+       
       </Carousel>
     );
   }
 }
-export default Header;
+export default Header_api;
