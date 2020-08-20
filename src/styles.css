@@ -2,6 +2,22 @@
   background: #222f3e;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
 .badge {
   font-size: 60%;
 }
@@ -48,4 +64,53 @@ ul.keyword {
 }
 .btn-next:hover{
   background-color: #9c2720;
+}
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+.carousel-inner > .carousel-item {
+  height: 70vh;
+}
+img.d-block.w-100 {
+  max-height: 70vh;
+  object-fit: cover;
+}
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  bottom: 5px;
+}
+
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.carousel-caption p {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-shadow: none;
 }
