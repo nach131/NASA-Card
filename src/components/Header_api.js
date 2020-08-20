@@ -3,9 +3,7 @@
 
 import React from "react";
 import { Carousel, CarouselItem } from "react-bootstrap";
-import IMG2 from "../images/pexels-pixabay-256152.jpg";
-import IMG3 from "../images/pexels-spacex-23789.jpg";
-import IMG4 from "../images/pexels-spacex-60132.jpg";
+
 
 class Header_api extends React.Component {
   constructor(props) {
@@ -39,12 +37,8 @@ class Header_api extends React.Component {
   }
 
 
-  // componentDidUpdate(){
-  //   this.fetchFotoDay();
-  // }
   fetchFotoDay = async () => {
     const Url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=${this.masDoceDias()}&end_date=${this.state.diaHoy}`
-      // "https://api.nasa.gov/planetary/apod?api_key=EUDrgZhfxHUUr5GwtaCDh0FjiAxQsboz8BoR7MCY&date=";
   
     // console.log(Url + this.masDoceDias());
     this.setState({ loading: true, error: null });
