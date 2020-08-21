@@ -33,6 +33,14 @@ p {
 .badge {
   font-size: 60%;
 }
+
+.jumbotron{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #565e674f;
+  color:white;
+}
+
 .card {
   border-radius: 8px;
   overflow: hidden;

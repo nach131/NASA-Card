@@ -18,7 +18,8 @@ export default class Header_data extends Component {
           {data.map((postData, index) => (
             <CarouselItem key={index}>
               <img className="d-block w-100" src={postData.url} alt="" />
-              <Carousel.Caption>
+              <Carousel.Caption className="mx-3">
+              
             <h3 className="text-right">
               {postData.title}
             </h3>

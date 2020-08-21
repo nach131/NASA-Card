@@ -44,9 +44,9 @@ class CardListItem extends React.Component {
 
 class CardList extends React.Component {
   render() {
-    if (this.props.error) {
-      return `Error: ${this.props.error.message}`
-    }
+    // if (this.props.error) {
+    //   return `Error: ${this.props.error.message}`
+    // }
 
     return (
       <Container fluid={true} className="py-4">

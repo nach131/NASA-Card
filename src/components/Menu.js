@@ -1,6 +1,6 @@
 import React from "react";
-import { Navbar, Nav, Container, Bagde, NavDropdown } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+// import { Link } from "react-router-dom";
 import Logo from '../images/NASA_Worm_logo.svg'
 
 function Menu() {
@@ -12,7 +12,7 @@ function Menu() {
             width="100"
             // height="30"
             className="d-inline-block align-top"
-            alt="" Nasa logo />
+            alt="Nasa logo"  />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import CardList from "./CardList";
 import Album from "./Album";
 import Button from "react-bootstrap/Button";
-
+import Resultados from './Resultados'
 
 class Cards extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class Cards extends Component {
 
     try {
       const respuesta = await fetch(
-        `https://images-api.nasa.gov/search?q=curiosity&page=${this.state.nextPage}`
+        `https://images-api.nasa.gov/searcH?q=curiosity&page=${this.state.nextPage}`
       );
       const responseData = await respuesta.json();
       this.setState({
@@ -49,9 +49,11 @@ class Cards extends Component {
     const items = this.state.items;
     const loading = this.state.loading;
     const error = this.state.error;
+    const total_hits= this.state.total_hits;
     return (
       <Album>
-        <CardList items={items} loading={loading} error={error}/>
+      <Resultados total_hits={total_hits} error={error}/>
+        <CardList items={items} loading={loading}/>
         
         <div className="col text-center">
         {!this.state.loading && (
