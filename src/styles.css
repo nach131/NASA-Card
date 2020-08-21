@@ -1,8 +1,20 @@
 #root {
-  background: #222f3e;
+  /* background: #222f3e; */
+ /* #08193b #102148 #182955 #203262  */
+  /* background: linear-gradient(to right, rgba(8,25,59,1) 0%, rgba(7,20,49,1) 33%, rgba(6,14,40,1) 66%, rgba(2,5,31,1) 100%); */
+  background: linear-gradient(to right, rgba(2,5,31,1) 0%, rgba(6,14,40,1) 33%, rgba(7,20,49,1) 66%, rgba(8,25,59,1) 100%);
+
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+nav {
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(to right, rgba(2,5,31,1) 0%, rgba(6,14,40,1) 33%, rgba(7,20,49,1) 66%, rgba(8,25,59,1) 100%);
+
+
+
+ 
+}
 
 h1,
 h2,
@@ -119,4 +131,13 @@ img.d-block.w-100 {
   font-weight: 400;
   line-height: 18px;
   text-shadow: none;
+}
+#footer{
+  /* background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372); */
+  /* background: linear-gradient(to right, rgba(8,25,59,1) 0%, rgba(77,104,125,1) 100%); */
+  /* background: linear-gradient(to right, rgba(8,25,59,1) 0%, rgba(8,25,59,1) 41%, rgba(77,104,125,1) 100%); */
+
+}
+p.footer-dark {
+  color: rgba(255,255,255,.5);
 }

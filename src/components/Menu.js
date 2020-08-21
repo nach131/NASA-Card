@@ -5,7 +5,7 @@ import Logo from '../images/NASA_Worm_logo.svg'
 
 function Menu() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark"  fixed="top">
       <Container>
         <Navbar.Brand href='/'>
         <img src={Logo}
@@ -36,10 +36,10 @@ function Menu() {
             </NavDropdown>
             <NavDropdown title="Constellations" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Ursa Major</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Ursa Minor</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Draco</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Pegasus</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">The zodiac constellations</NavDropdown.Item>
+              {/* <NavDropdown.Item href="#action/3.2">Ursa Minor</NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="#action/3.3">Draco</NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="#action/3.3">Pegasus</NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="#action/3.3">The zodiac constellations</NavDropdown.Item> */}
               </NavDropdown>
           </Nav>
         </Navbar.Collapse>

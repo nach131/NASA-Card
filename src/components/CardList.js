@@ -49,7 +49,7 @@ class CardList extends React.Component {
     }
 
     return (
-      <Container fluid={true}>
+      <Container fluid={true} className="py-4">
         {this.props.loading && (
           <div className="d-flex justify-content-center">
             <div className="spinner-border text-warning" role="status">
