@@ -27,7 +27,7 @@ class Cards extends Component {
 
     try {
       const respuesta = await fetch(
-        `https://images-api.nasa.gov/searcH?q=curiosity&page=${this.state.nextPage}`
+        `https://images-api.nasa.gov/search?q=curiosity&page=${this.state.nextPage}`
       );
       const responseData = await respuesta.json();
       this.setState({

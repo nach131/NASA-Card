@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 const Album = (props) => {
   return (
     <>
-<Container className="py-5">
+<Container id='album'>
 
       {props.children}
 
