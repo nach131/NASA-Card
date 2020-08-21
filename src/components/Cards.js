@@ -14,6 +14,7 @@ class Cards extends Component {
       href: "",
       items: [],
       total_hits: "",
+      paginas: [],
     };
   }
 
@@ -30,12 +31,14 @@ class Cards extends Component {
         `https://images-api.nasa.gov/search?q=curiosity&page=${this.state.nextPage}`
       );
       const responseData = await respuesta.json();
+      console.log(responseData)
       this.setState({
         loading:false,
         href: responseData.collection.href,
         items: responseData.collection.items,
         total_hits: responseData.collection.metadata.total_hits,
         nextPage: this.state.nextPage +1,
+        paginas: responseData.collection.links,
       });
     } catch (error){
       this.setState({

@@ -13,7 +13,6 @@ const styles = {
 
 class Resultados extends React.Component {
 
-
   render() {
     if (this.props.error) {
       return (
