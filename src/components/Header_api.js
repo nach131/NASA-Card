@@ -38,7 +38,7 @@ class Header_api extends React.Component {
 
 
   fetchFotoDay = async () => {
-    const Url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=${this.masDoceDias()}&end_date=${this.state.diaHoy}`
+    const Url = `https://api.nasa.gov/planetary/apod?api_key=EUDrgZhfxHUUr5GwtaCDh0FjiAxQsboz8BoR7MCY&start_date=${this.masDoceDias()}&end_date=${this.state.diaHoy}`
   
     // console.log(Url + this.masDoceDias());
     this.setState({ loading: true, error: null });
