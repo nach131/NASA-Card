@@ -5,6 +5,7 @@ const Album = (props) => {
   return (
     <>
       <Container id="album">{props.children}</Container>
+      
     </>
   );
 };
