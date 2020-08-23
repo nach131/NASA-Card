@@ -23,6 +23,26 @@ nav {
   );
 }
 
+.MuiGridListTileBar-title {
+  font-family: "Raleway", sans-serif;
+}
+
+
+a.descarga {
+  display: flex;
+  position: relative;
+  bottom: 100px;
+  padding-right: 2rem;
+  /* right: -195px; */
+}
+
+p.descripcion {
+  display: flex;
+  position: relative;
+  line-height: 15px;
+}
+
+
 h1,
 h2,
 h3,

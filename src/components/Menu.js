@@ -18,7 +18,7 @@ function Menu() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/cards">Curiosity</Nav.Link>
-            <Nav.Link href="#">Apollo</Nav.Link>
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
             <NavDropdown title="Solar system" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Mercury</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Venus</NavDropdown.Item>

@@ -6,6 +6,7 @@ import Cards from './Cards';
 import NotFound from "./NotFound";
 import Layout from "./Layout";
 import Animacion from "../pages/Animacion";
+import Gallery from './Gallery'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/cards" component={Cards} />
           <Route exact path="/ani" component={Animacion} />
+          <Route exact path="/gallery" component={Gallery} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
