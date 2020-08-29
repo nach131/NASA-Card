@@ -38,7 +38,6 @@ export default function AsyncHooks() {
       </Form>
       <br />
     
-
           <MuestraCards MuestraItems={results}
             loading={loading}
             className="col-xl-3 col-md-4"

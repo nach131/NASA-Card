@@ -15,7 +15,7 @@ function useNasa(query) {
         const json = await response.json();
 
         setResults(
-          json.collection.items.map(item => {
+          json.collection.items.map((item,i) => {
             return item;
           })
         );
