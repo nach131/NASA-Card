@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown, Form } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import Logo from '../images/NASA_Worm_logo.svg'
 
@@ -41,6 +41,10 @@ function Menu() {
               {/* <NavDropdown.Item href="#action/3.3">Pegasus</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#action/3.3">The zodiac constellations</NavDropdown.Item> */}
               </NavDropdown>
+
+              <Form inline>
+
+              </Form>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -49,3 +53,4 @@ function Menu() {
 }
 
 export default Menu;
+
