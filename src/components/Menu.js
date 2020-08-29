@@ -1,18 +1,25 @@
-import React from "react";
-import { Navbar, Nav, Container, NavDropdown, Form } from "react-bootstrap";
+import React, { useState } from "react";
+
+import { Navbar, Nav, Container, NavDropdown, Form, Button,InputGroup } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import Logo from '../images/NASA_Worm_logo.svg'
+import useGiphy from '../components/Test/useGiphy'
+
 
 function Menu() {
+
+  const [search, setSearch] = useState('');
+  const [query, setQuery] = useState('');
+  const [results, loading] = useGiphy(query);
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark"  fixed="top">
+    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
       <Container>
         <Navbar.Brand href='/'>
-        <img src={Logo}
+          <img src={Logo}
             width="100"
             // height="30"
             className="d-inline-block align-top"
-            alt="Nasa logo"  />
+            alt="Nasa logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -40,11 +47,50 @@ function Menu() {
               {/* <NavDropdown.Item href="#action/3.3">Draco</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#action/3.3">Pegasus</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#action/3.3">The zodiac constellations</NavDropdown.Item> */}
-              </NavDropdown>
+            </NavDropdown>
+            {/* <form
+              className="align-self-center"
+              onSubmit={e => {
+                e.preventDefault();
+                setQuery(search);
+              }}
+            >
+              <div className="input-group">
 
-              <Form inline>
+                <input
+                  id="input" name="buscar"
+                  className="form-control"
+                  value={search}
+                  onChange={e => setSearch(e.target.value)}
+                  placeholder="Buscar Gifs!"
+                />
+                <div class="input-group-append">
+                  <button className="btn btn-next" type="submit">Buscar</button>
+                </div>
+              </div>
+            </form> */}
 
-              </Form>
+            <Form className="align-self-center"
+              onSubmit={e => {
+                e.preventDefault();
+                setQuery(search);
+              }}>
+
+              <InputGroup>
+
+              <Form.Control id="input" name="buscar"
+                className="form-control"
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+                placeholder="Buscar Gifs!">
+              </Form.Control>
+              <InputGroup.Append>
+              <Button className="btn btn-next" type="submit">
+                Buscar
+              </Button>
+              </InputGroup.Append>
+              </InputGroup>
+            </Form>
           </Nav>
         </Navbar.Collapse>
       </Container>
