@@ -26,7 +26,7 @@ class CardListItem extends React.Component {
       <>
         <Card className="mb-4 shadow-sm">
           <Card.Img variant="top" src={this.props.postData.links[0].href} />
-          {console.log(this.props.postData.links)}
+          {/* {console.log(this.props.postData.links[0].href)} */}
           <Card.Body>
             <Card.Title className="mb-0">
             {this.props.postData.data[0].nasa_id}
@@ -45,7 +45,6 @@ class CardListItem extends React.Component {
 
 
 class MuestraCards extends Component {
-  // state = {  }
   render() {
     const items = this.props.MuestraItems
     const loading = this.props.loading
@@ -53,7 +52,6 @@ class MuestraCards extends Component {
       <Container fluid={true} className="py-4">
         <Row>
 
-          {/* {items.map(item => <video autoPlay loop key={item} src={item} />)} */}
           {loading ? (
             <h1>DAME SI MAMI FOTOS</h1>
           ) : (
@@ -61,8 +59,6 @@ class MuestraCards extends Component {
                 <div key={i} className="col-xl-3 col-md-4">
                   {/* {console.log(postData)} */}
                   <CardListItem postData={postData} />
-                  {/* <p className="test">{postData.data[0].date_created}</p> */}
-                  {/* <p className="test">{postData.links[0].href}</p> */}
                 </div>
 
               ))
