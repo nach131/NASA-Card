@@ -13,7 +13,7 @@ export default function AsyncHooks() {
   const [results, loading] = useNasa(query);
   // console.log(results)
   return (
-    <div className="form px-5 pt-3">
+    <div className="form pt-3">
       {/* <h4>Busca por palabras</h4> */}
       <br />
       <Form className="align-self-center"
@@ -22,7 +22,7 @@ export default function AsyncHooks() {
           setQuery(search);
         }}>
 
-        <InputGroup>
+        <InputGroup className="InputBuscar mx-auto">
           <Form.Control id="input" name="buscar"
             className="form-control"
             value={search}

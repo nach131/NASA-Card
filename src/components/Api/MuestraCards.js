@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Spinner from "react-bootstrap/Spinner";
 
 
 class CardListItem extends React.Component {
@@ -29,7 +30,7 @@ class CardListItem extends React.Component {
           {/* {console.log(this.props.postData.links[0].href)} */}
           <Card.Body>
             <Card.Title className="mb-0">
-            {this.props.postData.data[0].nasa_id}
+              {this.props.postData.data[0].nasa_id}
             </Card.Title>
             <div className="badges mb-2">{wordToRender}</div>
             <Card.Text>{this.props.postData.data[0].description}</Card.Text>
@@ -41,9 +42,6 @@ class CardListItem extends React.Component {
   }
 }
 
-
-
-
 class MuestraCards extends Component {
   render() {
     const items = this.props.MuestraItems
@@ -53,7 +51,9 @@ class MuestraCards extends Component {
         <Row>
 
           {loading ? (
-            <h1>DAME SI MAMI FOTOS</h1>
+            <Spinner animation="border" role="status" variant="warning mx-auto" >
+              <span className="sr-only">Loading...</span>
+            </Spinner>
           ) : (
               items.map((postData, i) => (
                 <div key={i} className="col-xl-3 col-md-4">

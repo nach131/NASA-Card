@@ -126,7 +126,9 @@ ul.keyword {
   margin-right: 4px;
   padding-inline-start: 0px;
 }
-
+.InputBuscar{
+  width: 60%;
+}
 .btn-next {
   background-color: #db362d;
   color: white;
