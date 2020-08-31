@@ -6,13 +6,15 @@ function Gallery({ images }) {
   const [show, setShow] = useState(false);
   const [urlImage, setUrlImage] = useState(null);
   const [imgTitle, setImageTitle] = useState(null);
+  const [imgExpl, setImageExpl] = useState(null);
 
   const handleClose = () => setShow(false);
 
-  const handleShow = (e, url, title) => {
+  const handleShow = (e, url, title, explanation) => {
     e.preventDefault();
     setUrlImage(url);
     setImageTitle(title);
+    setImageExpl(explanation);
     // console.log(url);
     setShow(true);
   };
@@ -23,23 +25,29 @@ function Gallery({ images }) {
         {images.map((img, i) => (
 
           <div key={i} className="img-box">
-            <a href={img.url} onClick={e => handleShow(e, img.url, img.title)}>
-              <img alt="sample text" src={img.url}/>
+            <a href={img.url} onClick={e => handleShow(e, img.url, img.title, img.explanation)}>
+              <img alt="sample text" src={img.url} />
             </a>
           </div>
         ))}
       </div>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
+      <Modal show={show} onHide={handleClose} size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered>
+        <Modal.Header className="p-2">
           <Modal.Title>{imgTitle}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="p-2">
           <img src={urlImage} alt={imgTitle} />
+          {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+        <Modal.Footer className="p-1">
+          <p className="p-modal">
+            {imgExpl}
+          </p>
+          {/* <Button variant="secondary" onClick={handleClose}>
             Close
-          </Button>
+          </Button> */}
         </Modal.Footer>
       </Modal>
     </>

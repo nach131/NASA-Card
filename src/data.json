@@ -1,14 +1,21 @@
-[
-  {
-      "copyright": "Petr Horálek",
-      "date": "2020-08-10",
-      "explanation": "Where are all these meteors coming from?  In terms of direction on the sky, the pointed answer is the constellation of Perseus.  That is why the meteor shower that peaks tomorrow night is known as the Perseids -- the meteors all appear to came from a radiant toward Perseus. In terms of parent body, though, the sand-sized debris that makes up the Perseids meteors come from Comet Swift-Tuttle. The comet follows a well-defined orbit around our Sun, and the part of the orbit that approaches Earth is superposed in front of the Perseus. Therefore, when Earth crosses this orbit, the radiant point of falling debris appears in Perseus. Featured here, a composite image taken over eight nights and containing over 400 meteors from 2018 August's Perseids meteor shower shows many bright meteors that streaked over Kolonica Observatory in Slovakia.  This year's Perseids holds promise to be one of the best meteor showers of the year.",
-      "hdurl": "https://apod.nasa.gov/apod/image/2008/NightOfThePerseids_Horalek_1800.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Perseids from Perseus",
-      "url": "https://apod.nasa.gov/apod/image/2008/NightOfThePerseids_Horalek_960.jpg"
-  },
+[{
+    "date": "2017-11-20",
+    "explanation": "Yes, but have you ever taken a selfie on Mars? The Curiosity rover on Mars has.  This selfie was compiled from many smaller images -- which is why the mechanical arm holding the camera is not visible.  (Although its shadow is!)  Taken in mid-2015, the featured image shows not only the adventurous rover, but dark layered rocks, the light colored peak of Mount Sharp, and the rusting red sand that pervades Mars. If you look closely, you can even see that a small rock is stuck into one of Curiosity's aging wheels.  Now nearing the end of 2017, Curiosity continues to explore the layers of sedimentary rocks it has discovered on Vera Rubin Ridge in order to better understand, generally, the ancient geologic history of Mars and, specifically, why these types of rocks exist there.    Now Available: The 2018 APOD Calendar",
+    "hdurl": "https://apod.nasa.gov/apod/image/1711/Selfie_Curiosity_3577.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Curiosity Rover Takes Selfie on Mars",
+    "url": "https://apod.nasa.gov/apod/image/1711/Selfie_Curiosity_960.jpg"
+},{
+    "copyright": "Francesco Antonucci",
+    "date": "2017-05-07",
+    "explanation": "What's all of the commotion in the Tadpole nebula? Star formation.  Dusty emission in the Tadpole nebula, IC 410, lies about 12,000 light-years away in the northern constellation of the Charioteer (Auriga). The cloud of glowing gas is over 100 light-years across, sculpted by stellar winds and radiation from embedded open star cluster NGC 1893. Formed in the interstellar cloud a mere 4 million years ago, bright newly formed cluster stars are seen all around the star-forming nebula.  Notable near the image center are two relatively dense streamers of material trailing away from the nebula's central regions. Potentially sites of ongoing star formation in IC 410, these cosmic tadpole shapes are about 10 light-years long. The featured image was taken in infrared light by NASA's Wide Field Infrared Survey Explorer (WISE) satellite.   Open Science: Browse 1,400+ codes in the Astrophysics Source Code Library",
+    "hdurl": "https://apod.nasa.gov/apod/image/1705/ic410_WISEantonucci_1824.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Star Formation in the Tadpole Nebula",
+    "url": "https://apod.nasa.gov/apod/image/1705/ic410_WISEantonucci_960.jpg"
+},
   {
       "date": "2020-08-11",
       "explanation": "Where is Jupiter's ammonia? Gaseous ammonia was expected to be seen in Jupiter's upper atmosphere by the orbiting Juno spacecraft -- but in many clouds is almost absent. Recent Juno data, however, gives some clues: some high-level clouds appear to be home to an unexpected type of electrical discharge dubbed shallow lightning. Great charge separations are needed for lightning, which might be created by colliding mushballs lifted by rising updrafts of gas.  Ammonia and water stick to these mushballs which rise until they get too heavy -- after which they fall deep into Jupiter's atmosphere and melt.  By this process, ammonia found missing from Jupiter's upper atmosphere reappears below.  Pictured by Juno, churning clouds on Jupiter show not only mesmerizing complexity but some high-level, light-colored pop-up clouds. Understanding atmospheric dynamics on Jupiter gives valuable perspective to similar atmospheric and lightning phenomena that occur on our home Earth.    Peaking Tonight: The Perseid Meteor Shower",
@@ -19,16 +26,6 @@
       "url": "https://apod.nasa.gov/apod/image/2008/JupiterChurning_JunoGill_1080.jpg"
   },
   {
-      "copyright": "Ignacio Llorens",
-      "date": "2020-08-12",
-      "explanation": "Keep your eye on the ion tail of Comet NEOWISE.  A tale of this tail is the trail of the Earth. As with all comets, the blue ion tail always points away from the Sun. But as Comet C/2020 F3 (NEOWISE) rounded our Sun, its ion tail pointed in slightly different directions. This is because between 2020 July 17 and July 25 when the featured images were taken, the Earth moved noticeably in its orbit around the Sun. But the Earth's motion made the Sun appear to shift in the sky. So even though you can't see the Sun directly in the featured image(s), the directions of the ion tails reveal this apparent solar shift. The Sun's apparent motion is in the ecliptic, the common plane where all planets orbit.  The featured five image composite was meticulously composed to accurately place each comet image -- and the five extrapolated solar positions -- on a single foreground image of Turó de l'Home Mountain, north of Barcelona, Spain Comet NEOWISE is no longer the impressive naked-eye object it was last month, but it can still be found with a small telescope as it heads back to the outer Solar System.",
-      "hdurl": "https://apod.nasa.gov/apod/image/2008/NeowiseSequence_Llorens_3044_annotated.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "The Shifting Tails of Comet NEOWISE",
-      "url": "https://apod.nasa.gov/apod/image/2008/NeowiseSequence_Llorens_960_annotated.jpg"
-  },
-  {
       "copyright": "Marcin Zając",
       "date": "2020-08-13",
       "explanation": "What planets are those behind that unusual rock spire? Saturn (lower left) and Jupiter.  This month, after sunset, the bright planetary duo are quite prominent toward the southeast.  Now your view of our Solar System's largest planets might not include a picturesque hoodoo in the foreground, nor the spectacular central band of our Milky Way Galaxy across the background, but should be quite eye-catching anyway.  The featured image is a composite of consecutive foreground and background exposures all taken in late May with the same camera and from the same location -- the badlands of the  Ah-Shi-Sle-Pah Wilderness in the San Juan Basin in New Mexico, USA.  The rock spire, informally dubbed 'Alien Throne', stands about 3 meters tall. Saturn and Jupiter will remain visible together after sunset for several months.",
@@ -37,15 +34,6 @@
       "service_version": "v1",
       "title": "Jupiter and Saturn Rising Beyond Alien Throne Rock",
       "url": "https://apod.nasa.gov/apod/image/2008/AlienThrone_Zajac_960.jpg"
-  },
-  {
-      "date": "2020-08-14",
-      "explanation": "Why is this nebula so complex? When a star like our Sun is dying, it will cast off its outer layers, usually into a simple overall shape. Sometimes this shape is a sphere, sometimes a double lobe, and sometimes a ring or a helix.  In the case of planetary nebula NGC 5189, however, besides an overall \"Z\" shape (the featured image is flipped horizontally and so appears as an \"S\"), no such simple structure has emerged.  To help find out why, the Earth-orbiting Hubble Space Telescope has observed NGC 5189 in great detail. Previous findings indicated the existence of multiple epochs of material outflow, including a recent one that created a bright but distorted torus running horizontally across image center.  Hubble results appear consistent with a hypothesis that the dying star is part of a binary star system with a precessing symmetry axis. NGC 5189 spans about three light years and lies about 3,000 light years away toward the southern constellation of the Fly (Musca).",
-      "hdurl": "https://apod.nasa.gov/apod/image/2008/NGC5189_HubbleVargas_4039.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "NGC 5189: An Unusually Complex Planetary Nebula",
-      "url": "https://apod.nasa.gov/apod/image/2008/NGC5189_HubbleVargas_960.jpg"
   },
   {
       "copyright": "Sergio Scauso",
@@ -67,30 +55,58 @@
       "url": "https://apod.nasa.gov/apod/image/2008/NGC6814_HubbleSchmidt_960.jpg"
   },
   {
-      "copyright": "Jingyi Zhang",
-      "date": "2020-08-17",
-      "explanation": "Why would meteor trails appear curved? The arcing effect arises only because the image artificially compresses (nearly) the whole sky into a rectangle. The meteors are from the Perseid Meteor Shower that peaked last week. The featured multi-frame image combines not only different directions from the 360 projection, but different times when bright Perseid meteors momentarily streaked across the sky. All Perseid meteors can be traced back to the constellation Perseus toward the lower left, even the seemingly curved (but really straight) meteor trails.  Although Perseids always point back to their Perseus radiant, they can appear almost anywhere on the sky. The image was taken from Inner Mongolia, China, where grasslands meet sand dunes. Many treasures also visible in the busy night sky including the central arch of our Milky Way Galaxy, the planets Saturn and Jupiter toward the right, colorful airglow on the central left, and some relatively nearby Earthly clouds.  The Perseid Meteor Shower peaks every August.    Perseid Meteor Shower: Notable images submitted to APOD",
-      "hdurl": "https://apod.nasa.gov/apod/image/2008/PerseidBridge_Zhang_4032.jpg",
+      "copyright": "Andrew Campbell",
+      "date": "2018-01-11",
+      "explanation": "Large and dramatically shaped, this cosmic cloud spans nearly 7 degrees or 14 full moons across planet Earth's sky toward the southern constellation Ara. Difficult to image, the filamentary apparition is cataloged as RCW 114 and traced in this telescopic mosaic by the telltale reddish emission of ionized hydrogen atoms. In fact, RCW 114 has been recognized as a supernova remnant. Its extensive filaments of emission are produced as the still expanding shockwave from the death explosion of a massive star sweeps up the surrounding interstellar medium. Consistent estimates place its distance at over 600 light-years, indicating a diameter of about 100 light-years or so. Light from the supernova explosion that created RCW 114 would have reached Earth around 20,000 years ago. A spinning neutron star or pulsar has recently been identified as the remains of the collapsed stellar core.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1801/RCW114_FBcambell.jpg",
       "media_type": "image",
       "service_version": "v1",
-      "title": "Perseids Around the Milky Way",
-      "url": "https://apod.nasa.gov/apod/image/2008/PerseidBridge_Zhang_1080.jpg"
+      "title": "RCW 114: A Dragon's Heart in Ara",
+      "url": "https://apod.nasa.gov/apod/image/1801/RCW114_FBcambell1024.jpg"
   },
   {
-      "date": "2020-08-19",
-      "explanation": "Does the Sun change as it rotates? Yes, and the changes can vary from subtle to dramatic. In the featured time-lapse sequences, our Sun -- as imaged by NASA's Solar Dynamics Observatory -- is shown rotating though an entire month in 2014.  In the large image on the left, the solar chromosphere is depicted in ultraviolet light, while the smaller and lighter image to its upper right simultaneously shows the more familiar solar photosphere in visible light. The rest of the inset six Sun images highlight X-ray emission by relatively rare iron atoms located at different heights of the corona, all false-colored to accentuate differences. The Sun takes just under a month to rotate completely -- rotating fastest at the equator. A large and active sunspot region rotates into view soon after the video starts.  Subtle effects include changes in surface texture and the shapes of active regions. Dramatic effects include numerous flashes in active regions, and fluttering and erupting prominences visible all around the Sun's edge.  Presently, our Sun is passing an unusually low  Solar minimum in activity of its 11-year magnetic cycle. As the video ends, the same large and active sunspot region previously mentioned rotates back into view, this time looking different.",
-      "media_type": "video",
-      "service_version": "v1",
-      "title": "The Sun Rotating",
-      "url": "https://www.youtube.com/embed/2WRgXvdasm0"
-  },
-  {
-      "date": "2020-08-20",
-      "explanation": "Shrouded in a thick atmosphere, Saturn's largest moon Titan really is hard to see. Small particles suspended in the upper atmosphere cause an almost impenetrable haze, strongly scattering light at visible wavelengths and hiding Titan's surface features from prying eyes. But Titan's surface is better imaged at infrared wavelengths where scattering is weaker and atmospheric absorption is reduced. Arrayed around this visible light image (center) of Titan are some of the clearest global infrared views of the tantalizing moon so far. In false color, the six panels present a consistent processing of 13 years of infrared image data from the Visual and Infrared Mapping Spectrometer (VIMS) on board the Cassini spacecraft. They offer a stunning comparison with Cassini's visible light view.   Experts Debate: How will humanity first discover extraterrestrial life?",
-      "hdurl": "https://apod.nasa.gov/apod/image/2008/PIA21923_fig1SeeingTitan2400.jpg",
+      "date": "2018-01-24",
+      "explanation": "This telescopic close-up shows off the otherwise faint emission nebula IC 410. It also features two remarkable inhabitants of the cosmic pond of gas and dust below and left of center, the tadpoles of IC 410. Partly obscured by foreground dust, the nebula itself surrounds NGC 1893, a young galactic cluster of stars. Formed in the interstellar cloud a mere 4 million years ago, the intensely hot, bright cluster stars energize the glowing gas. Composed of denser cooler gas and dust, the tadpoles are around 10 light-years long and are likely sites of ongoing star formation. Sculpted by winds and radiation from the cluster stars, their heads are outlined by bright ridges of ionized gas while their tails trail away from the cluster's central region. IC 410 lies some 10,000 light-years away, toward the nebula-rich constellation Auriga.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1801/Tadpoles_Jimenez_3365.jpg",
       "media_type": "image",
       "service_version": "v1",
-      "title": "Seeing Titan",
-      "url": "https://apod.nasa.gov/apod/image/2008/PIA21923_fig1SeeingTitan1024.jpg"
+      "title": "The Tadpoles of IC 410",
+      "url": "https://apod.nasa.gov/apod/image/1801/Tadpoles_Jimenez_960.jpg"
+  },
+  {
+      "date": "2018-06-23",
+      "explanation": "Winds on Mars can't actually blow spacecraft over. But in the low gravity, martian winds can loft fine dust particles in planet-wide storms, like the dust storm now raging on the Red Planet. From the martian surface on sol 2082 (June 15), this self-portrait from the Curiosity rover shows the effects of the dust storm, reducing sunlight and visibility at the rover's location in Gale crater. Made with the Mars Hand Lens Imager, its mechanical arm is edited out of the mosaicked images. Curiosity's recent drill site Duluth can be seen on the rock just in front of the rover on the left. The east-northeast Gale crater rim fading into the background is about 30 kilometers away. Curiosity is powered by a radioisotope thermoelectric generator and is expected to be unaffected by the increase in dust at Gale crater. On the other side of Mars, the solar-powered Opportunity rover has ceased its operations due to the even more severe lack of sunlight at its location on the west rim of Endeavour crater.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1806/PIA22486CuriositySelf2018dustStorm2048.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Curiosity's Dusty Self",
+      "url": "https://apod.nasa.gov/apod/image/1806/PIA22486CuriositySelf2018dustStorm1024.jpg"
+  },
+  {
+      "date": "2018-12-24",
+      "explanation": "\"Oh my God! Look at that picture over there! Here's the Earth coming up. Wow is that pretty!\" Soon after that pronouncement, 50 years ago today, one of the most famous images ever taken was snapped from the orbit of the Moon. Now known as \"Earthrise\", the iconic image shows the Earth rising above the limb of the Moon, as taken by the crew of Apollo 8.  But the well-known Earthrise image was actually the  second image taken of the Earth rising above the lunar limb -- it was just the first in color.  With modern digital technology, however, the real first Earthrise image -- originally in black and white -- has now been remastered to have the combined resolution and color of the first three images.  Behold! The featured image is a close-up of the picture that Apollo 8 astronaut Bill Anders was talking about. Thanks to modern technology and human ingenuity, now we can all see it. (Historical note: A different historic black & white image of the Earth setting behind the lunar limb was taken by the robotic Lunar Orbiter 1 two years earlier.)",
+      "hdurl": "https://apod.nasa.gov/apod/image/1812/Earthrise1_Apollo8AndersWeigang_2048.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Earthrise 1: Historic Image Remastered",
+      "url": "https://apod.nasa.gov/apod/image/1812/Earthrise1_Apollo8AndersWeigang_960.jpg"
+  },
+  {
+      "date": "2017-07-22",
+      "explanation": "Bright sunlight glints and long dark shadows mark this image of the lunar surface. It was taken July 20, 1969 by Apollo 11 astronaut Neil Armstrong, the first to walk on the Moon. Pictured is the mission's lunar module, the Eagle, and spacesuited lunar module pilot Buzz Aldrin unfurling a long sheet of foil also known as the Solar Wind Composition Experiment. Exposed facing the Sun, the foil trapped particles streaming outward in the solar wind, catching a sample of material from the Sun itself. Along with moon rocks and lunar soil samples, the solar wind collector was returned for analysis in earthbound laboratories.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1707/AS11-40-5872HR.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Apollo 11: Catching Some Sun",
+      "url": "https://apod.nasa.gov/apod/image/1707/AS11-40-5872HR1024.jpg"
+  },
+  {
+      "date": "2017-11-24",
+      "explanation": "In December of 1972, Apollo 17 astronauts Eugene Cernan and Harrison Schmitt spent about 75 hours on the Moon in the Taurus-Littrow valley, while colleague Ronald Evans orbited overhead. This sharp image was taken by Cernan as he and Schmitt roamed the valley floor. The image shows Schmitt on the left with the lunar rover at the edge of Shorty Crater, near the spot where geologist Schmitt discovered orange lunar soil. The Apollo 17 crew returned with 110 kilograms of rock and soil samples, more than was returned from any of the other lunar landing sites. Forty five years later, Cernan and Schmitt are still the last to walk on the Moon.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1711/moonshorty_apollo17_1498.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Apollo 17 at Shorty Crater",
+      "url": "https://apod.nasa.gov/apod/image/1711/moonshorty_apollo17_1080.jpg"
   }
 ]

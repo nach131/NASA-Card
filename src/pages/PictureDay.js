@@ -15,7 +15,7 @@ import Img2017 from '../data/2017'
 class PictureDay extends Component {
   // state = {  }
   render() {
-    console.log(this.props.match.path)
+    // console.log(this.props.match.path)
     const year = this.props.match.path
     // if (year === "/year/2019") {
     //   return <Gallery images={Img2019} />

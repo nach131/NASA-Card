@@ -171,7 +171,7 @@ p.footer-dark {
   color: rgba(255, 255, 255, 0.5);
 }
 
-p.test{
+p.test {
   color: white;
 }
 .content {
@@ -204,4 +204,15 @@ p.test{
 }
 .modal-body img {
   max-width: 100%;
+}
+.modal-title{
+  font-size:18px;
+}
+.modal-content {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  border-color: #6c757d;
+}
+.p-modal{
+  line-height: 18px;
 }
