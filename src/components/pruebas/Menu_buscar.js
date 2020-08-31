@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Navbar, Nav, Container, NavDropdown, Form, Button, InputGroup } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown, Form, Button,InputGroup } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import Logo from '../images/NASA_Worm_logo.svg'
 import useGiphy from '../components/Test/useGiphy'
@@ -48,12 +48,29 @@ function Menu() {
               {/* <NavDropdown.Item href="#action/3.3">Pegasus</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#action/3.3">The zodiac constellations</NavDropdown.Item> */}
             </NavDropdown>
-            <NavDropdown title="Astronomy Picture of the Day" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/year/2018">2018</NavDropdown.Item>
-              <NavDropdown.Item href="/year/2019">2019</NavDropdown.Item>
-            </NavDropdown>
+            {/* <form
+              className="align-self-center"
+              onSubmit={e => {
+                e.preventDefault();
+                setQuery(search);
+              }}
+            >
+              <div className="input-group">
 
-            {/* <Form className="align-self-center"
+                <input
+                  id="input" name="buscar"
+                  className="form-control"
+                  value={search}
+                  onChange={e => setSearch(e.target.value)}
+                  placeholder="Buscar Gifs!"
+                />
+                <div class="input-group-append">
+                  <button className="btn btn-next" type="submit">Buscar</button>
+                </div>
+              </div>
+            </form> */}
+
+            <Form className="align-self-center"
               onSubmit={e => {
                 e.preventDefault();
                 setQuery(search);
@@ -73,7 +90,7 @@ function Menu() {
               </Button>
               </InputGroup.Append>
               </InputGroup>
-            </Form> */}
+            </Form>
           </Nav>
         </Navbar.Collapse>
       </Container>

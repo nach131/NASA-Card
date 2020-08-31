@@ -174,3 +174,34 @@ p.footer-dark {
 p.test{
   color: white;
 }
+.content {
+  max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /* max-height: 450px; */
+  overflow: auto;
+  /* border-radius: 8px; */
+  /* border: 1px solid #ded; */
+  margin-top: 20px;
+}
+.img-box {
+  min-width: 134px;
+  width: calc(25% - 16px);
+  flex-grow: 1;
+  margin: 4px;
+  overflow: hidden;
+  /* border: 1px solid #ded;
+  border-radius: 8px;
+  padding: 4px; */
+}
+
+.img-box img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.modal-body img {
+  max-width: 100%;
+}
