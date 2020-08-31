@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 function Gallery({ images }) {
@@ -45,9 +44,7 @@ function Gallery({ images }) {
           <p className="p-modal">
             {imgExpl}
           </p>
-          {/* <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button> */}
+   
         </Modal.Footer>
       </Modal>
     </>

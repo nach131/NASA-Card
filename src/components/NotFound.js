@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import styles from './NotFound.css'
+import './NotFound.css'
 
 function NotFound() {
   return (

@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-
 
 import Gallery from '../components/Gallery'
 import Img2019 from '../data/2019'
@@ -20,7 +17,6 @@ class PictureDay extends Component {
   // state = {  }
   render() {
     // console.log(this.props.match.path)
-    const year = this.props.match.path
     // if (year === "/year/2019") {
     //   return <Gallery images={Img2019} />
     // }
@@ -52,10 +48,9 @@ class PictureDay extends Component {
         return <Gallery images={Img2011} />;
       case "/year/2010":
         return <Gallery images={Img2010} />;
+        default:
+          return <Gallery images={Img2010} />;
     }
-    return (
-      <h1>esto</h1>
-    )
   }
 }
 
