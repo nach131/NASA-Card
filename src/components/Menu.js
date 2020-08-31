@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import { Navbar, Nav, Container, NavDropdown, Form, Button, InputGroup } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import Logo from '../images/NASA_Worm_logo.svg'
-import useGiphy from '../components/Test/useGiphy'
+import enunpimpam from '../images/enunpimpam.png'
 
+import useGiphy from '../components/Test/useGiphy'
 
 function Menu() {
 
@@ -19,14 +20,20 @@ function Menu() {
             width="100"
             // height="30"
             className="d-inline-block align-top"
-            alt="Nasa logo" />
+            alt="nasa logo" />
+          <img src={enunpimpam}
+            // width="100"
+            height="28"
+            // height="30"
+            className="d-inline-block align-top pl-2"
+            alt="enunpimpam logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/cards">Curiosity</Nav.Link>
-            <Nav.Link href="#">Apollo</Nav.Link>
-            <NavDropdown title="Solar system" id="collasible-nav-dropdown">
+            {/* <Nav.Link href="#">Apollo</Nav.Link> */}
+            {/* <NavDropdown title="Solar system" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Mercury</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Venus</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Earth</NavDropdown.Item>
@@ -40,15 +47,16 @@ function Menu() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.3">Sun</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Moon</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Constellations" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Ursa Major</NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.2">Ursa Minor</NavDropdown.Item> */}
-              {/* <NavDropdown.Item href="#action/3.3">Draco</NavDropdown.Item> */}
-              {/* <NavDropdown.Item href="#action/3.3">Pegasus</NavDropdown.Item> */}
-              {/* <NavDropdown.Item href="#action/3.3">The zodiac constellations</NavDropdown.Item> */}
-            </NavDropdown>
+            </NavDropdown> */}
+
             <NavDropdown title="Astronomy Picture of the Day" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/year/2010">2010</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2011">2011</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2012">2012</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2013">2013</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2014">2014</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2015">2015</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2016">2016</NavDropdown.Item>
               <NavDropdown.Item href="/year/2017">2017</NavDropdown.Item>
               <NavDropdown.Item href="/year/2018">2018</NavDropdown.Item>
               <NavDropdown.Item href="/year/2019">2019</NavDropdown.Item>
