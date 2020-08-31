@@ -29,8 +29,8 @@ function Menu() {
             alt="enunpimpam logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+          <Nav className="">
             <Nav.Link href="/cards">Curiosity</Nav.Link>
             {/* <Nav.Link href="#">Apollo</Nav.Link> */}
             {/* <NavDropdown title="Solar system" id="collasible-nav-dropdown">
