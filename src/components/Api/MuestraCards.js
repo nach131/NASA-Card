@@ -22,7 +22,6 @@ class CardListItem extends React.Component {
       });
     }
 
-
     return (
       <>
         <Card className="mb-4 shadow-sm">
@@ -36,7 +35,6 @@ class CardListItem extends React.Component {
             <Card.Text>{this.props.postData.data[0].description}</Card.Text>
           </Card.Body>
         </Card>
-
       </>
     )
   }

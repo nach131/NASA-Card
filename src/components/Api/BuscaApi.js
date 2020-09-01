@@ -37,11 +37,11 @@ export default function AsyncHooks() {
         </InputGroup>
       </Form>
       <br />
-    
-          <MuestraCards MuestraItems={results}
-            loading={loading}
-            className="col-xl-3 col-md-4"
-          />
+
+      <MuestraCards MuestraItems={results}
+        loading={loading}
+        className="col-xl-3 col-md-4"
+      />
 
 
     </div>

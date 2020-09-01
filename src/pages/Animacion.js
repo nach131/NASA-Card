@@ -5,8 +5,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import './Animacion.css';
 
-import Gallery from '../components/Gallery'
-import Img2019 from '../data/2019'
+// import Gallery from '../components/Gallery'
+// import Img2019 from '../data/2019'
+
+// import ModalVideo from '../components/TestModal/ModalVideo'
 
 setTimeout(() => {
 }, 2000)
@@ -34,7 +36,9 @@ class Animacion extends React.Component {
             </div>
           </StyleRoot>
         </Row>
-        <Gallery images={Img2019} />
+        {/* <Gallery images={Img2019} /> */}
+       {/* <ModalVideo/> */}
+
       </Container>
     );
   }

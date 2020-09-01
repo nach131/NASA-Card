@@ -22,7 +22,6 @@ function Gallery({ images }) {
     <>
       <div className="content">
         {images.map((img, i) => (
-
           <div key={i} className="img-box">
             <a href={img.url} onClick={e => handleShow(e, img.url, img.title, img.explanation)}>
               <img alt="sample text" src={img.url} />
