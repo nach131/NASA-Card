@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function useNasa(query, page) {
+function useNasa(query) {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [nextPage, setNextPage] = useState(1);
@@ -12,7 +12,7 @@ function useNasa(query, page) {
       try {
         setLoading(true);
         const response = await fetch(
-          `https://images-api.nasa.gov/search?q=${query}&page=${page}`
+          `https://images-api.nasa.gov/search?q=${query}&page=${nextPage}`
         );
         const json = await response.json();
         setResults(
@@ -32,7 +32,7 @@ function useNasa(query, page) {
     }
    
   }, [query]);
-{console.log(page, query)}
+
   return [results, loading];
 }
 

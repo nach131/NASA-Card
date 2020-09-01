@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Form, Button, InputGroup } from "react-bootstrap";
 
+
+
 import useNasa from './useNasa'
 import MuestraCards from './MuestraCards'
 
@@ -8,10 +10,7 @@ export default function AsyncHooks() {
 
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('');
-  const [tomate, setTomate] = useState('')
-  const [page, setPage] = useState(1);
-
-  const [results, loading] = useNasa(query, page);
+  const [results, loading] = useNasa(query);
   // console.log(results)
   return (
     <div className="form pt-3">
@@ -21,7 +20,6 @@ export default function AsyncHooks() {
         onSubmit={e => {
           e.preventDefault();
           setQuery(search);
-          setTomate(search);
         }}>
 
         <InputGroup className="InputBuscar mx-auto">
@@ -46,13 +44,12 @@ export default function AsyncHooks() {
       />
       <h1>toma</h1>
       {/* <Button className="btn-next" onClick={() => this.useNasa(query)}>Mas</Button> */}
+    
+    {/* Muestra las busquedas de sun */}
       <Button className="btn-next" onClick={e => {
-        e.preventDefault();
-        setQuery(tomate);
-        // setQuery('sun');
-        setPage(page + 1);
-
-      }}>Mas</Button>
+          e.preventDefault();
+          setQuery('sun');
+        }}>Mas</Button>
 
     </div>
   );
