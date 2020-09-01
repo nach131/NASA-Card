@@ -3,6 +3,7 @@ import  { useState, useEffect } from 'react';
 function useNasa(query) {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [nextPage, setNextPage] = useState(1);
   
 
   useEffect(() => {
@@ -10,17 +11,18 @@ function useNasa(query) {
       try {
         setLoading(true);
         const response = await fetch(
-          `https://images-api.nasa.gov/search?q=${query}`
-        );
+          `https://images-api.nasa.gov/search?q=${query}&page=${nextPage}`
+        );     
         const json = await response.json();
-
         setResults(
           json.collection.items.map((item,i) => {
             return item;
           })
         );
+        setNextPage(nextPage + 1);
       } finally {
         setLoading(false);
+        
       }
     }
     if (query !== '') {

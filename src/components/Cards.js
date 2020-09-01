@@ -43,7 +43,7 @@ class Cards extends Component {
     } catch (error){
       this.setState({
         loading:false,
-        error:error,       
+        error:error,
       })
     }
   };

@@ -4,6 +4,8 @@ import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
+
 import Spinner from "react-bootstrap/Spinner";
 
 
@@ -72,10 +74,25 @@ function CardListItem({ postData }) {
 }
 
 class MuestraCards extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      nextPage: 1,
+      BotonNext: true,
+    }
+  }
+
+
+  componentD(){
+    this.setState({
+      BotonNext:false,})
+  }
   render() {
     const items = this.props.MuestraItems
     const loading = this.props.loading
     return (
+      
       <Container fluid={true} className="py-4">
         <Row>
 
@@ -89,9 +106,12 @@ class MuestraCards extends Component {
                   {/* {console.log(postData)} */}
                   <CardListItem postData={postData} />
                 </div>
-
               ))
             )}
+         
+          {/* {!BotonNext && (
+            <h1>tomate</h1>
+          )} */}
         </Row>
       </Container>
 
