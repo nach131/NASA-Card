@@ -21,6 +21,7 @@ export default function AsyncHooks() {
         onSubmit={e => {
           e.preventDefault();
           setQuery(search);
+          setPage(1)
           setTomate(search);
         }}>
 
