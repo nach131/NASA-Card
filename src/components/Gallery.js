@@ -36,7 +36,9 @@ function Gallery({ images }) {
           <Modal.Title>{imgTitle}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="p-2">
+        <a href={urlImage} target="_blank">
           <img src={urlImage} alt={imgTitle} />
+        </a>
           {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
         <Modal.Footer className="p-1">
