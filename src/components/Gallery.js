@@ -4,14 +4,16 @@ import Modal from "react-bootstrap/Modal";
 function Gallery({ images }) {
   const [show, setShow] = useState(false);
   const [urlImage, setUrlImage] = useState(null);
+  const [urlHDimage, setUrlHDimage] = useState(null);
   const [imgTitle, setImageTitle] = useState(null);
   const [imgExpl, setImageExpl] = useState(null);
 
   const handleClose = () => setShow(false);
 
-  const handleShow = (e, url, title, explanation) => {
+  const handleShow = (e, url, hdurl, title, explanation) => {
     e.preventDefault();
     setUrlImage(url);
+    setUrlHDimage(hdurl);
     setImageTitle(title);
     setImageExpl(explanation);
     // console.log(url);
@@ -23,7 +25,7 @@ function Gallery({ images }) {
       <div className="content">
         {images.map((img, i) => (
           <div key={i} className="img-box">
-            <a href={img.url} onClick={e => handleShow(e, img.hdurl, img.title, img.explanation)}>
+            <a href={img.url} onClick={e => handleShow(e,img.url, img.hdurl, img.title, img.explanation)}>
               <img alt="sample text" src={img.url} />
             </a>
           </div>
@@ -36,7 +38,7 @@ function Gallery({ images }) {
           <Modal.Title>{imgTitle}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="p-2">
-        <a href={urlImage} target="_blank">
+        <a href={urlHDimage} target="_blank">
           <img src={urlImage} alt={imgTitle} />
         </a>
           {/* <Modal.Dialog>dedede</Modal.Dialog> */}
