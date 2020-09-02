@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 
 function useNasa(query, page) {
   const [results, setResults] = useState([]);
+  const [hits, setHits] = useState(false);
   const [loading, setLoading] = useState(false);
-  // const [nextPage, setNextPage] = useState(1);
   // const [error, setError] = useState(null);
 
 
@@ -15,27 +15,26 @@ function useNasa(query, page) {
           `https://images-api.nasa.gov/search?q=${query}&page=${page}`
         );
         const json = await response.json();
+// console.log(json.collection.metadata.total_hits)
+
+        setHits(json.collection.metadata.total_hits);
         setResults(
           json.collection.items.map((item, i) => {
             return item;
           })
         );
-        // setNextPage(nextPage + 1);
       }
       finally {
         setLoading(false);
-
       }
-      console.log(`https://images-api.nasa.gov/search?q=${query}&page=${page}`)
-
     }
     if (query !== '') {
       fetchData();
-    } 
-  
-
+    }
   }, [query, page]);
-  return [results, loading];
+  // console.log(hits)
+  return [results, loading, hits];
+
 }
 
 export default useNasa;

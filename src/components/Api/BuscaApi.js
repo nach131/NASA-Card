@@ -12,17 +12,17 @@ export default function AsyncHooks() {
   const [tomate, setTomate] = useState('')
   const [page, setPage] = useState(1);
 
-  const [results, loading] = useNasa(query, page);
+  const [results, loading, hits] = useNasa(query, page);
   // console.log(results)
 
 
   function MuestraPagina() {
     if (query === '') {
-      return('')
+      return ('')
     }
     if (page === 1) {
       return (
-        <ButtonGroup aria-label="Basic example" className="mx-auto" size="sm">     
+        <ButtonGroup aria-label="Basic example" className="mx-auto" size="sm">
           <Button className="btn-next" >{page}</Button>
           <Button className="btn-next" onClick={e => {
             e.preventDefault();
@@ -47,7 +47,7 @@ export default function AsyncHooks() {
             setQuery(tomate);
             // setQuery('sun');
             setPage(page + 1);
-            window.scrollTo(0,660)
+            window.scrollTo(0, 660)
           }} >Next</Button>
         </ButtonGroup>
       )
@@ -82,14 +82,16 @@ export default function AsyncHooks() {
         </InputGroup>
       </Form>
       <br />
-      <MuestraCards MuestraItems={results}
+      <MuestraCards
+        MuestraItems={results}
         loading={loading}
+        hits={hits}
         className="col-xl-3 col-md-4"
       />
       <Row>
-      <MuestraPagina /> 
+        <MuestraPagina />
       </Row>
-    
+
 
     </div>
   );

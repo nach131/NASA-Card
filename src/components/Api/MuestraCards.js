@@ -76,11 +76,15 @@ class MuestraCards extends Component {
   render() {
     const items = this.props.MuestraItems
     const loading = this.props.loading
+    const hits = this.props.hits
+    // console.log(items)
     return (
-      
+
       <Container fluid={true} className="py-4">
         <Row>
-
+          <h2 className="mx-auto">{hits}</h2>
+        </Row>
+        <Row>
           {loading ? (
             <Spinner animation="border" role="status" variant="warning mx-auto" >
               <span className="sr-only">Loading...</span>
