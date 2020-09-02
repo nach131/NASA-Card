@@ -27,7 +27,6 @@ nav {
   font-family: "Raleway", sans-serif;
 }
 
-
 a.descarga {
   display: flex;
   position: relative;
@@ -41,7 +40,6 @@ p.descripcion {
   position: relative;
   line-height: 15px;
 }
-
 
 h1,
 h2,
@@ -132,15 +130,27 @@ ul.keyword {
   margin-right: 4px;
   padding-inline-start: 0px;
 }
-.InputBuscar{
+.InputBuscar {
   width: 60%;
 }
 .btn-next {
-  background-color: #db362d;
+  background-color: #9c2720;
   color: white;
+  border-color: #b70e05;
 }
 .btn-next:hover {
-  background-color: #9c2720;
+  background-color: #db362d;
+  border-color: #9c2720;
+}
+.btn-next:focus {
+  background-color: #db362d;
+  border-color: #9c2720;
+  box-shadow: 0 0 0 0.2rem #ca0f21;
+}
+
+.btn-next:not(:disabled):not(.disabled).active, .btn-next:not(:disabled):not(.disabled):active, .show>.btn-next.dropdown-toggle {
+  background-color: #db362d;
+  border-color: #9c2720;
 }
 #carousel {
   position: relative;
@@ -234,15 +244,15 @@ p.test {
 .modal-body img {
   max-width: 100%;
 }
-.modal-title{
-  font-size:18px;
-  color:#db362d;
+.modal-title {
+  font-size: 18px;
+  color: #db362d;
 }
 .modal-content {
   font-family: "Raleway", sans-serif;
   background-color: black;
   border-color: #6c757d;
 }
-.p-modal{
+.p-modal {
   line-height: 18px;
 }

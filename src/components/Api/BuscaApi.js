@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button, InputGroup, Row } from "react-bootstrap";
+import { Form, Button, InputGroup, Row, ButtonGroup } from "react-bootstrap";
 
 import useNasa from './useNasa'
 import MuestraCards from './MuestraCards'
@@ -46,12 +46,27 @@ export default function AsyncHooks() {
         className="col-xl-3 col-md-4"
       />
       <Row>
-      <Button className="btn-next mx-auto" onClick={e => {
-        e.preventDefault();
-        setQuery(tomate);
-        // setQuery('sun');
-        setPage(page + 1);
-      }}>Mas</Button>
+        <ButtonGroup aria-label="Basic example" className="mx-auto" size="sm">
+          <Button  className="btn-next" onClick={e => {
+            e.preventDefault();
+            setQuery(tomate);
+            // setQuery('sun');
+            setPage(page - 1);
+          }}>Prev</Button>
+          <Button className="btn-next" >{page}</Button>
+          <Button  className="btn-next" onClick={e => {
+            e.preventDefault();
+            setQuery(tomate);
+            // setQuery('sun');
+            setPage(page + 1);
+          }} >Next</Button>
+        </ButtonGroup>
+        {/* <Button className="btn-next mx-auto" onClick={e => {
+          e.preventDefault();
+          setQuery(tomate);
+          // setQuery('sun');
+          setPage(page + 1);
+        }}>Mas</Button> */}
       </Row>
 
     </div>
