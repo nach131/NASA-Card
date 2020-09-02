@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { Navbar, Nav, Container, NavDropdown, Form, Button, InputGroup } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown, } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import Logo from '../images/NASA_Worm_logo.svg'
 import enunpimpam from '../images/enunpimpam.png'
 
-import useGiphy from '../components/Test/useGiphy'
+// import useGiphy from '../components/Test/useGiphy'
 
 function Menu() {
 
-  const [search, setSearch] = useState('');
-  const [query, setQuery] = useState('');
-  const [results, loading] = useGiphy(query);
+  // const [search, setSearch] = useState('');
+  // const [query, setQuery] = useState('');
+  // const [results, loading] = useGiphy(query);
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
       <Container>
@@ -31,23 +31,7 @@ function Menu() {
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav className="">
-            <Nav.Link href="/cards">Curiosity</Nav.Link>
-            {/* <Nav.Link href="#">Apollo</Nav.Link> */}
-            {/* <NavDropdown title="Solar system" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Mercury</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Venus</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Earth</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Mars</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Jupiter</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Saturn</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Uranus</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Neptune</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Pluto</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">Sun</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Moon</NavDropdown.Item>
-            </NavDropdown> */}
+            {/* <Nav.Link href="/cards">Curiosity</Nav.Link>           */}
 
             <NavDropdown title="Astronomy Picture of the Day" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/year/2010">2010</NavDropdown.Item>

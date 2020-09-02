@@ -35,7 +35,6 @@ function useNasa(query, page) {
   
 
   }, [query, page]);
-  { console.log(page, query) }
   return [results, loading];
 }
 

@@ -46,7 +46,6 @@ function Gallery({ images }) {
     console.log(url)
     if (media === 'video') {
        const imgvideo = url.slice(30,41);
-       console.log(imgvideo)
        const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`
       return (
         <img alt="sample text" src={http} /> 
