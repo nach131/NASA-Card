@@ -47,6 +47,7 @@ export default function AsyncHooks() {
             setQuery(tomate);
             // setQuery('sun');
             setPage(page + 1);
+            window.scrollTo(0,660)
           }} >Next</Button>
         </ButtonGroup>
       )
