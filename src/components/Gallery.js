@@ -18,20 +18,21 @@ function Gallery({ images }) {
     setImageTitle(title);
     setImageExpl(explanation);
     setMedia(media);
-    console.log(media);
     setShow(true);
   };
 
-  function ImgVideo() {
+  //   const str = "https://www.youtube.com/embed/iRL268cXaqk?rel=0"; 
+  //   const res = str.slice(30,41);
+  // console.log(res)
+
+  function Video() {
     if (imgMedia === 'video') {
       return (
         <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
           <iframe src={urlImage}
             alt={imgTitle} allowfullscreen="">
-
           </iframe>
         </div>
-
       )
     } else {
       return (
@@ -41,7 +42,21 @@ function Gallery({ images }) {
       )
     }
   }
-
+  function ImgVideo({ media, url }) {
+    console.log(url)
+    if (media === 'video') {
+       const imgvideo = url.slice(30,41);
+       console.log(imgvideo)
+       const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`
+      return (
+        <img alt="sample text" src={http} /> 
+      )
+    } else {
+      return (
+        <img alt="sample text" src={url} />
+      )
+    }
+  }
 
   return (
     <>
@@ -49,7 +64,8 @@ function Gallery({ images }) {
         {images.map((img, i) => (
           <div key={i} className="img-box">
             <a href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>
-              <img alt="sample text" src={img.url} />
+              {/* <img alt="sample text" src={img.url} /> */}
+              <ImgVideo media={img.media_type} url={img.url} />
             </a>
           </div>
         ))}
@@ -64,7 +80,7 @@ function Gallery({ images }) {
           {/* <a href={urlHDimage} target="_blank">
             <img src={urlImage} alt={imgTitle} />
           </a> */}
-          <ImgVideo />
+          <Video />
           {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
         <Modal.Footer className="p-1">
