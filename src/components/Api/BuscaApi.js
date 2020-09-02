@@ -88,23 +88,7 @@ export default function AsyncHooks() {
         className="col-xl-3 col-md-4"
       />
       <Row>
-      <MuestraPagina />
-        {/* <ButtonGroup aria-label="Basic example" className="mx-auto" size="sm">
-          <Button className="btn-next" onClick={e => {
-            e.preventDefault();
-            setQuery(tomate);
-            // setQuery('sun');
-            setPage(page - 1);
-          }}>Prev</Button>
-          <Button className="btn-next" >{page}</Button>
-          <Button className="btn-next" onClick={e => {
-            e.preventDefault();
-            setQuery(tomate);
-            // setQuery('sun');
-            setPage(page + 1);
-          }} >Next</Button>
-        </ButtonGroup> */}
-      
+      <MuestraPagina /> 
       </Row>
     
 

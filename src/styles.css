@@ -243,6 +243,12 @@ p.test {
   object-fit: cover;
   border-radius: 6px;
 }
+.modal-content {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  border-color: #6c757d;
+  width: auto;
+}
 .modal-body img {
   max-width: 100%;
 }
@@ -250,11 +256,7 @@ p.test {
   font-size: 18px;
   color: #db362d;
 }
-.modal-content {
-  font-family: "Raleway", sans-serif;
-  background-color: black;
-  border-color: #6c757d;
-}
+
 .p-modal {
   line-height: 18px;
 }
