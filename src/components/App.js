@@ -2,7 +2,6 @@ import React from "react";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import Cards from './Cards';
 import NotFound from "./NotFound";
 import Layout from "./Layout";
 import Animacion from "../pages/Animacion";
@@ -24,7 +23,6 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/cards" component={Cards} />
           <Route exact path="/year/2010" component={Year2010} />
           <Route exact path="/year/2011" component={Year2011} />
           <Route exact path="/year/2012" component={Year2012} />
