@@ -6,6 +6,7 @@ import NotFound from "./NotFound";
 import Layout from "./Layout";
 import Animacion from "../pages/Animacion";
 import Gallery from './Gallery'
+import Ejemplos from '../pages/Ejemplos'
 import Year2019 from '../pages/PictureDay'
 import Year2018 from '../pages/PictureDay'
 import Year2017 from '../pages/PictureDay'
@@ -16,6 +17,7 @@ import Year2013 from '../pages/PictureDay'
 import Year2012 from '../pages/PictureDay'
 import Year2011 from '../pages/PictureDay'
 import Year2010 from '../pages/PictureDay'
+
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route exact path="/year/2018" component={Year2018} />
           <Route exact path="/year/2019" component={Year2019} />
           <Route exact path="/ani" component={Animacion} />
+          <Route exact path="/sun" component={Ejemplos} />
+          <Route exact path="/earth" component={Ejemplos} />
           <Route exact path="/gallery" component={Gallery} />
           <Route component={NotFound} />
         </Switch>

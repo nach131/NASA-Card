@@ -31,7 +31,8 @@ function Menu() {
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav className="">
-            {/* <Nav.Link href="/cards">Curiosity</Nav.Link>           */}
+            <Nav.Link href="/earth">earth</Nav.Link>          
+            <Nav.Link href="/sun">sun</Nav.Link>          
 
             <NavDropdown title="Astronomy Picture of the Day" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/year/2010">2010</NavDropdown.Item>

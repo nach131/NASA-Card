@@ -1,22 +1,23 @@
 import React, { useState } from "react";
-import { Form, Button, InputGroup, Row, ButtonGroup } from "react-bootstrap";
+import { Button, Row, ButtonGroup } from "react-bootstrap";
 
 import useNasa from './useNasa'
 import MuestraCards from './MuestraCards'
 
-
-export default function AsyncHooks() {
-
-  const [search, setSearch] = useState('');
+export default function AsyncHooks(props) {
+  
+  // const [search, setSearch] = useState('');
   const [query, setQuery] = useState('');
   const [tomate, setTomate] = useState('')
   const [page, setPage] = useState(1);
-
+ 
   const [results, loading] = useNasa(query, page);
-  // console.log(results)
-
+  
 
   function MuestraPagina() {
+
+    setQuery(props.ejemplo)
+
     if (query === '') {
       return('')
     }
@@ -55,10 +56,11 @@ export default function AsyncHooks() {
 
 
   return (
-    <div className="form pt-3">
+
+    <div className="form pt-5">
       {/* <h4>Busca por palabras</h4> */}
       <br />
-      <Form className="align-self-center"
+      {/* <Form className="align-self-center"
         onSubmit={e => {
           e.preventDefault();
           setQuery(search);
@@ -79,7 +81,7 @@ export default function AsyncHooks() {
               </Button>
           </InputGroup.Append>
         </InputGroup>
-      </Form>
+      </Form> */}
       <br />
       <MuestraCards MuestraItems={results}
         loading={loading}
