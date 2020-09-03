@@ -31,7 +31,8 @@ class Ejemplos extends Component {
         return <EjemploApi ejemplo="lunar surface" />;
       case "/saturn_v":
         return <EjemploApi ejemplo="saturn V" />;
-
+      case "/discovery":
+        return <EjemploApi ejemplo="discovery" />;
 
 
       default:
