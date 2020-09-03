@@ -349,6 +349,9 @@ p.test {
   margin-top: 50px;
 }
 #cards_landscape_wrap-2 .card-flyer .text-box p{
+  max-height: 7rem;
+  overflow: hidden;
+  min-height: 112px;
   margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px; 

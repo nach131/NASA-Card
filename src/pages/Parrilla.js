@@ -9,10 +9,10 @@ class Parrilla extends Component {
     return (
       <div id="parrilla">
         <div id="cards_landscape_wrap-2">
-          <Container >
+          <Container className="pt-0" >
             <Row >
               {data.map((postData, i) => (
-                <div key={i} className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div key={i} className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                   <Link to={postData.link}>
                     <div className="card-flyer">
                       <div className="text-box">
@@ -24,7 +24,7 @@ class Parrilla extends Component {
                         </div>
                         <div className="text-container">
                           <h6>{postData.title}</h6>
-                          <p>
+                          <p className="text-parrilla">
                             {postData.description}
                           </p>
                         </div>
