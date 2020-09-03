@@ -10,7 +10,7 @@ export default class Header_data extends Component {
       <>
         <Carousel
           id="carousel"
-          interval="6000"
+          interval="8000"
           className="carousel-inner slider"
           data-pause="false"
           controls=""
