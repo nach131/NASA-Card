@@ -36,7 +36,7 @@ function Gallery({ images }) {
       )
     } else {
       return (
-        <a href={urlHDimage} target="_blank">
+        <a href={urlHDimage} target="_blank" rel="noopener noreferrer">
           <img src={urlImage} alt={imgTitle} />
         </a>
       )

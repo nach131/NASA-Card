@@ -22,7 +22,7 @@ export default function AsyncHooks() {
     }
     if (page === 1) {
       return (
-        <ButtonGroup aria-label="Basic example" className="mx-auto" size="sm">
+        <ButtonGroup aria-label="One Next" className="mx-auto pb-5" size="sm">
           <Button className="btn-next" >{page}</Button>
           <Button className="btn-next" onClick={e => {
             e.preventDefault();
@@ -34,7 +34,7 @@ export default function AsyncHooks() {
       )
     } else {
       return (
-        <ButtonGroup aria-label="Basic example" className="mx-auto" size="sm">
+        <ButtonGroup aria-label="Two Next" className="mx-auto pb-5" size="sm">
           <Button className="btn-next" onClick={e => {
             e.preventDefault();
             setQuery(tomate);
@@ -56,9 +56,10 @@ export default function AsyncHooks() {
 
 
   return (
-    <div className="form pt-3">
+
+    <div id="buscar" className="pt-5"> 
       {/* <h4>Busca por palabras</h4> */}
-      <br />
+      {/* <br /> */}
       <Form className="align-self-center"
         onSubmit={e => {
           e.preventDefault();
@@ -81,7 +82,7 @@ export default function AsyncHooks() {
           </InputGroup.Append>
         </InputGroup>
       </Form>
-      <br />
+      {/* <br /> */}
       <MuestraCards
         MuestraItems={results}
         loading={loading}
@@ -93,6 +94,7 @@ export default function AsyncHooks() {
       </Row>
 
 
-    </div>
+     </div> 
+
   );
 }

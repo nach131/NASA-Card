@@ -1,14 +1,15 @@
 #root {
+
   /* background: #222f3e; */
   /* #08193b #102148 #182955 #203262  */
   /* background: linear-gradient(to right, rgba(8,25,59,1) 0%, rgba(7,20,49,1) 33%, rgba(6,14,40,1) 66%, rgba(2,5,31,1) 100%); */
-  /* background: linear-gradient(
+  background: linear-gradient(
     to right,
     rgba(2, 5, 31, 1) 0%,
     rgba(6, 14, 40, 1) 33%,
     rgba(7, 20, 49, 1) 66%,
     rgba(8, 25, 59, 1) 100%
-  ); */
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
@@ -26,7 +27,16 @@ nav {
 .MuiGridListTileBar-title {
   font-family: "Raleway", sans-serif;
 }
-
+#buscar {
+ 
+  background: linear-gradient(
+    to right,
+    rgba(2, 5, 31, 1) 0%,
+    rgba(6, 14, 40, 1) 33%,
+    rgba(7, 20, 49, 1) 66%,
+    rgba(8, 25, 59, 1) 100%
+  );
+}
 a.descarga {
   display: flex;
   position: relative;
@@ -203,10 +213,18 @@ img.d-block.w-100 {
   line-height: 18px;
   text-shadow: none;
 }
+#parrilla{
+  background: #F7F7F7;
+
+}
 #footer {
-  /* background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372); */
-  /* background: linear-gradient(to right, rgba(8,25,59,1) 0%, rgba(77,104,125,1) 100%); */
-  /* background: linear-gradient(to right, rgba(8,25,59,1) 0%, rgba(8,25,59,1) 41%, rgba(77,104,125,1) 100%); */
+  /* background: linear-gradient(
+    to right,
+    rgba(2, 5, 31, 1) 0%,
+    rgba(6, 14, 40, 1) 33%,
+    rgba(7, 20, 49, 1) 66%,
+    rgba(8, 25, 59, 1) 100%
+  ); */
 }
 p.footer-dark {
   color: rgba(255, 255, 255, 0.5);
@@ -238,9 +256,14 @@ p.test {
 }
 
 .img-box img {
-  max-width: 100%;
+  /* max-width: 100%;
   min-height: 100%;
+  object-fit: cover; */
+
+  width: 100%;
+  height: 20vw;
   object-fit: cover;
+
   border-radius: 6px;
 }
 .modal-content {
@@ -260,3 +283,90 @@ p.test {
 .p-modal {
   line-height: 18px;
 }
+
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+  text-align: center;
+  background: #F7F7F7;
+}
+#cards_landscape_wrap-2 .container{
+  padding-top: 80px; 
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2  .image-box img{
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+  background: #FFFFFF;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  line-height: 18px;
+  
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+  margin-top: 0px;
+  margin-bottom: 4px; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  /* font-family: 'Roboto Black', sans-serif; */
+  letter-spacing: 1px;
+  color: black;
+}
+/* ----------------- */
