@@ -37,7 +37,13 @@ function App() {
           <Route exact path="/year/2019" component={Year2019} />
           <Route exact path="/ani" component={Animacion} />
           <Route exact path="/sun" component={Ejemplos} />
+          <Route exact path="/curiosity" component={Ejemplos} />
           <Route exact path="/earth" component={Ejemplos} />
+          <Route exact path="/jupiter" component={Ejemplos} />
+          <Route exact path="/saturn" component={Ejemplos} />
+          <Route exact path="/iss" component={Ejemplos} />
+          <Route exact path="/dragon" component={Ejemplos} />
+          <Route exact path="/spacex" component={Ejemplos} />
           <Route exact path="/gallery" component={Gallery} />
           <Route component={NotFound} />
         </Switch>
