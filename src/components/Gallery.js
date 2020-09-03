@@ -43,7 +43,7 @@ function Gallery({ images }) {
     }
   }
   function ImgVideo({ media, url }) {
-    console.log(url)
+    // console.log(url)
     if (media === 'video') {
        const imgvideo = url.slice(30,41);
        const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`

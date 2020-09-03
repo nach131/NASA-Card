@@ -44,6 +44,9 @@ function App() {
           <Route exact path="/iss" component={Ejemplos} />
           <Route exact path="/dragon" component={Ejemplos} />
           <Route exact path="/spacex" component={Ejemplos} />
+          <Route exact path="/apollo_lunar_module" component={Ejemplos} />
+          <Route exact path="/lunar_surface" component={Ejemplos} />
+          <Route exact path="/saturn_v" component={Ejemplos} />
           <Route exact path="/gallery" component={Gallery} />
           <Route component={NotFound} />
         </Switch>

@@ -134,6 +134,7 @@ p.card-text:hover {
 }
 ul.keyword {
   font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
   display: inline;
   font-weight: 100;
   line-height: 1;
@@ -366,7 +367,7 @@ p.test {
   margin-bottom: 4px; 
   font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   
   /* font-family: 'Roboto Black', sans-serif; */
   letter-spacing: 1px;

@@ -23,9 +23,15 @@ class Ejemplos extends Component {
         return <EjemploApi ejemplo="iss" />;
       case "/dragon":
         return <EjemploApi ejemplo="dragon Spacecraft" />;
-        case "/spacex":
-          return <EjemploApi ejemplo="spacex" />;
-  
+      case "/spacex":
+        return <EjemploApi ejemplo="spacex" />;
+      case "/apollo_lunar_module":
+        return <EjemploApi ejemplo="Apollo Lunar Module" />;
+      case "/lunar_surface":
+        return <EjemploApi ejemplo="lunar surface" />;
+      case "/saturn_v":
+        return <EjemploApi ejemplo="saturn V" />;
+
 
 
       default:
