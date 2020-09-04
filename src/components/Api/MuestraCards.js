@@ -13,17 +13,36 @@ function CardListItem({ postData }) {
   const [urlImage, setUrlImage] = useState(null);
   const [imgTitle, setImageTitle] = useState(null);
 
+  const [urlhd, setUrlHd] = useState([])
+
+  console.log(urlhd[0]);
+
+  async function ImageHd(props) {
+    try {
+      const respuesta = await fetch(
+        props
+      );
+      const items = await respuesta.json();
+      setUrlHd(items)
+    } finally {
+    }
+  }
+
 
 
   const handleClose = () => setShow(false);
-  const handleShow = (e, url, title) => {
+  const handleShow = (e, url, title, json) => {
     e.preventDefault();
     setUrlImage(url);
     setImageTitle(title);
     // setImageExpl(explanation);
-    // console.log(url);
+    ImageHd(json)
+
     setShow(true);
   };
+
+
+
 
 
   let wordToRender;
@@ -42,7 +61,7 @@ function CardListItem({ postData }) {
   return (
     <>
       <Card className="mb-4 shadow-sm">
-        <a href={postData.links ? postData.links[0].href : null} onClick={e => handleShow(e, postData.links[0].href, postData.data[0].title)}>
+        <a href={postData.links ? postData.links[0].href : null} onClick={e => handleShow(e, postData.links[0].href, postData.data[0].title, postData.href)}>
           <Card.Img variant="top" src={postData.links ? postData.links[0].href : null} />
         </a>
         <Card.Body>
@@ -62,7 +81,10 @@ function CardListItem({ postData }) {
         </Modal.Header>
 
         <Modal.Body className="p-2">
-          <img src={urlImage} alt="" />
+          {/* <img src={urlImage} alt="" /> */}
+          <a href={urlhd[0]} target="_blank" rel="noopener noreferrer">
+            <img src={urlImage} alt="" />
+          </a>
           {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
       </Modal>
