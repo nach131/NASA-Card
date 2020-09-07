@@ -16,17 +16,6 @@ import Img2010 from '../data/2010'
 class PictureDay extends Component {
   // state = {  }
   render() {
-    // console.log(this.props.match.path)
-    // if (year === "/year/2019") {
-    //   return <Gallery images={Img2019} />
-    // }
-    // return (
-    //   <Container className="py-5">
-    //     <Row>
-    //      <h1>NADA</h1>
-    //     </Row>
-    //   </Container>
-    // );
     switch (this.props.match.path) {
       case "/year/2019":
         return <Gallery images={Img2019} />;

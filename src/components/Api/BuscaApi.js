@@ -3,6 +3,7 @@ import { Form, Button, InputGroup, Row, ButtonGroup } from "react-bootstrap";
 
 import useNasa from './useNasa'
 import MuestraCards from './MuestraCards'
+import  ReactDOM  from 'react-dom';
 
 
 export default function AsyncHooks() {
@@ -10,7 +11,7 @@ export default function AsyncHooks() {
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('');
   const [tomate, setTomate] = useState('')
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(0);
 
   const [results, loading, hits] = useNasa(query, page);
   // console.log(results)
@@ -84,12 +85,14 @@ export default function AsyncHooks() {
           </InputGroup.Append>
         </InputGroup>
       </Form>
-      {/* <br /> */}
       <MuestraCards
         MuestraItems={results}
         loading={loading}
         hits={hits}
+        page={page}
       />
+    
+
       <Row>
         <MuestraPagina />
       </Row>

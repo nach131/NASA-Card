@@ -59,7 +59,7 @@ function CardListItem({ postData }) {
   }
 
   return (
-    <>
+    <React.Fragment>
       <Card className="mb-4 shadow-sm">
         <a href={postData.links ? postData.links[0].href : null} onClick={e => handleShow(e, postData.links[0].href, postData.data[0].title, postData.href)}>
           <Card.Img variant="top" src={postData.links ? postData.links[0].href : null} />
@@ -88,23 +88,49 @@ function CardListItem({ postData }) {
           {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
       </Modal>
-
-    </>
+    </React.Fragment>
   )
 }
 
+
 class MuestraCards extends Component {
+
+
 
   render() {
     const items = this.props.MuestraItems
     const loading = this.props.loading
     const hits = this.props.hits
     // console.log(items)
+
+    const page = this.props.page
+
+    function RestaPagina() {
+      // const hits = this.props.hits
+
+      if (page === 1) {
+        return (
+          <h2 className="mx-auto">{hits}</h2>
+        )
+      } else if (page >= 2) {
+        const descuento = hits - (page * 100)
+        return (
+          <h2 className="mx-auto">{descuento}</h2>
+        )
+      } else {
+        return (<></>)
+      }
+    }
+
+
+
     return (
 
       <Container fluid={true} className="py-4">
         <Row>
-          <h2 className="mx-auto">{hits}</h2>
+          {/* <h2 className="mx-auto">{hits}</h2> */}
+
+          <RestaPagina />
         </Row>
         <Row>
           {loading ? (

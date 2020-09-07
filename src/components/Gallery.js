@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import Modal from "react-bootstrap/Modal";
 
 function Gallery({ images }) {
@@ -58,7 +58,7 @@ function Gallery({ images }) {
   }
 
   return (
-    <>
+    <React.Fragment>
       <div className="content">
         {images.map((img, i) => (
           <div key={i} className="img-box">
@@ -89,7 +89,7 @@ function Gallery({ images }) {
 
         </Modal.Footer>
       </Modal>
-    </>
+    </React.Fragment>
   );
 }
 export default Gallery;
