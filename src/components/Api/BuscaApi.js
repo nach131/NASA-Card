@@ -3,7 +3,6 @@ import { Form, Button, InputGroup, Row, ButtonGroup } from "react-bootstrap";
 
 import useNasa from './useNasa'
 import MuestraCards from './MuestraCards'
-import  ReactDOM  from 'react-dom';
 
 
 export default function AsyncHooks() {
@@ -14,10 +13,9 @@ export default function AsyncHooks() {
   const [page, setPage] = useState(0);
 
   const [results, loading, hits] = useNasa(query, page);
-  // console.log(results)
 
+  function BotonNext() {
 
-  function BotoNext() {
     return (
       <>
         <Button className="btn-next" >{page}</Button>
@@ -33,16 +31,18 @@ export default function AsyncHooks() {
   }
 
   function MuestraPagina() {
-    if (query === '') {
+    const descuento = hits - (page * 100) + 100
+
+    if (page === 0) {
       return ('')
     }
-    if (page === 1) {
+    else if (page === 1) {
       return (
         <ButtonGroup aria-label="One Next" className="mx-auto pb-5" size="sm">
-          <BotoNext />
+          <BotonNext />
         </ButtonGroup>
       )
-    } else {
+    } else if (descuento >= 100) {
       return (
         <ButtonGroup aria-label="Two Next" className="mx-auto pb-5" size="sm">
           <Button className="btn-next" onClick={e => {
@@ -51,9 +51,11 @@ export default function AsyncHooks() {
             // setQuery('sun');
             setPage(page - 1);
           }}>Prev</Button>
-          <BotoNext />
+          <BotonNext />
         </ButtonGroup>
       )
+    } else if (descuento <= 99 ) {
+      return(<></>)
     }
   }
 
@@ -85,13 +87,13 @@ export default function AsyncHooks() {
           </InputGroup.Append>
         </InputGroup>
       </Form>
+
       <MuestraCards
         MuestraItems={results}
         loading={loading}
         hits={hits}
         page={page}
       />
-    
 
       <Row>
         <MuestraPagina />

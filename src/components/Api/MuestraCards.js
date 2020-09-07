@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, {  useState } from 'react'
 
 import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
@@ -15,7 +15,6 @@ function CardListItem({ postData }) {
 
   const [urlhd, setUrlHd] = useState([])
 
-  console.log(urlhd[0]);
 
   async function ImageHd(props) {
     try {
@@ -106,16 +105,16 @@ class MuestraCards extends React.Component {
     const page = this.props.page
 
     function RestaPagina() {
-      // const hits = this.props.hits
+
 
       if (page === 1) {
         return (
-          <h2 className="mx-auto">{hits}</h2>
+          <h2 className="mx-auto">{hits} items</h2>
         )
       } else if (page >= 2) {
-        const descuento = hits - (page * 100)
+        const descuento = hits - (page * 100) + 100
         return (
-          <h2 className="mx-auto">{descuento}</h2>
+          <h2 className="mx-auto">{descuento} items</h2>
         )
       } else {
         return (<></>)
@@ -124,12 +123,12 @@ class MuestraCards extends React.Component {
 
 
 
+
     return (
 
       <Container fluid={true} className="py-4">
         <Row>
           {/* <h2 className="mx-auto">{hits}</h2> */}
-
           <RestaPagina />
         </Row>
         <Row>

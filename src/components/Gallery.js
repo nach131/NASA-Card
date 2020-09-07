@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 
 function Gallery({ images }) {
@@ -29,7 +29,7 @@ function Gallery({ images }) {
     if (imgMedia === 'video') {
       return (
         <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-          <iframe src={urlImage}
+          <iframe title={imgTitle} src={urlImage}
             alt={imgTitle} allowfullscreen="">
           </iframe>
         </div>
@@ -59,7 +59,8 @@ function Gallery({ images }) {
 
   return (
     <React.Fragment>
-      <div className="content">
+      <div className="content pt-5">
+      <h1>Year </h1>
         {images.map((img, i) => (
           <div key={i} className="img-box">
             <a href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>
@@ -76,11 +77,7 @@ function Gallery({ images }) {
           <Modal.Title>{imgTitle}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="p-2">
-          {/* <a href={urlHDimage} target="_blank">
-            <img src={urlImage} alt={imgTitle} />
-          </a> */}
           <Video />
-          {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
         <Modal.Footer className="p-1">
           <p className="p-modal">
