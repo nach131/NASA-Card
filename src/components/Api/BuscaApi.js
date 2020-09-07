@@ -16,6 +16,21 @@ export default function AsyncHooks() {
   // console.log(results)
 
 
+  function BotoNext() {
+    return (
+      <>
+        <Button className="btn-next" >{page}</Button>
+        <Button className="btn-next" onClick={e => {
+          e.preventDefault();
+          setQuery(tomate);
+          // setQuery('sun');
+          setPage(page + 1);
+          window.scrollTo(0, 660)
+        }} >Next</Button>
+      </>
+    )
+  }
+
   function MuestraPagina() {
     if (query === '') {
       return ('')
@@ -23,13 +38,7 @@ export default function AsyncHooks() {
     if (page === 1) {
       return (
         <ButtonGroup aria-label="One Next" className="mx-auto pb-5" size="sm">
-          <Button className="btn-next" >{page}</Button>
-          <Button className="btn-next" onClick={e => {
-            e.preventDefault();
-            setQuery(tomate);
-            // setQuery('sun');
-            setPage(page + 1);
-          }} >Next</Button>
+          <BotoNext />
         </ButtonGroup>
       )
     } else {
@@ -41,14 +50,7 @@ export default function AsyncHooks() {
             // setQuery('sun');
             setPage(page - 1);
           }}>Prev</Button>
-          <Button className="btn-next" >{page}</Button>
-          <Button className="btn-next" onClick={e => {
-            e.preventDefault();
-            setQuery(tomate);
-            // setQuery('sun');
-            setPage(page + 1);
-            window.scrollTo(0, 660)
-          }} >Next</Button>
+          <BotoNext />
         </ButtonGroup>
       )
     }
@@ -57,7 +59,7 @@ export default function AsyncHooks() {
 
   return (
 
-    <div id="buscar" className="pt-5"> 
+    <div id="buscar" className="pt-5">
       {/* <h4>Busca por palabras</h4> */}
       {/* <br /> */}
       <Form className="align-self-center"
@@ -87,14 +89,13 @@ export default function AsyncHooks() {
         MuestraItems={results}
         loading={loading}
         hits={hits}
-        className="col-xl-3 col-md-4"
       />
       <Row>
         <MuestraPagina />
       </Row>
 
 
-     </div> 
+    </div>
 
   );
 }
