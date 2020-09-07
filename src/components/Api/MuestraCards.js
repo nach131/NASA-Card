@@ -79,7 +79,6 @@ function CardListItem({ postData }) {
         <Modal.Header className="p-2">
           <Modal.Title>{imgTitle}</Modal.Title>
         </Modal.Header>
-
         <Modal.Body className="p-2">
           {/* <img src={urlImage} alt="" /> */}
           <a href={urlhd[0]} target="_blank" rel="noopener noreferrer">
@@ -88,12 +87,13 @@ function CardListItem({ postData }) {
           {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
       </Modal>
+
     </React.Fragment>
   )
 }
 
 
-class MuestraCards extends Component {
+class MuestraCards extends React.Component {
 
 
 

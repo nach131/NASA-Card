@@ -8,11 +8,11 @@ export default class Home extends Component {
 
   render() {
     return (
-      <>
-      <Header/>
-      <BuscaApi/>
-      <Parrilla/>
-      </>
+      <React.Fragment>
+        <Header />
+        <BuscaApi />
+        <Parrilla />
+      </React.Fragment>
     )
   }
 }
