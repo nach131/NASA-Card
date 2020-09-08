@@ -60,7 +60,6 @@ function Gallery({ images }) {
   return (
     <React.Fragment>
       <div className="content pt-5">
-      <h1>Year </h1>
         {images.map((img, i) => (
           <div key={i} className="img-box">
             <a href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>

@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, { useState } from 'react'
 
 import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
@@ -106,15 +106,14 @@ class MuestraCards extends React.Component {
 
     function RestaPagina() {
 
-
       if (page === 1) {
         return (
-          <h2 className="mx-auto">{hits} items</h2>
+          <h2 className="mx-auto pb-3">{hits} results</h2>
         )
       } else if (page >= 2) {
         const descuento = hits - (page * 100) + 100
         return (
-          <h2 className="mx-auto">{descuento} items</h2>
+          <h2 className="mx-auto pb-3">{descuento} results</h2>
         )
       } else {
         return (<></>)
@@ -122,14 +121,17 @@ class MuestraCards extends React.Component {
     }
 
 
-
-
     return (
 
       <Container fluid={true} className="py-4">
         <Row>
           {/* <h2 className="mx-auto">{hits}</h2> */}
-          <RestaPagina />
+          {loading ? (
+            <></>
+          ) : (
+
+              <RestaPagina />
+            )}
         </Row>
         <Row>
           {loading ? (
