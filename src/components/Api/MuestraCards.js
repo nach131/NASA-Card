@@ -34,7 +34,6 @@ function CardListItem({ postData }) {
     e.preventDefault();
     setUrlImage(url);
     setImageTitle(title);
-    // setImageExpl(explanation);
     ImageHd(json)
 
     setShow(true);
@@ -79,11 +78,9 @@ function CardListItem({ postData }) {
           <Modal.Title>{imgTitle}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="p-2">
-          {/* <img src={urlImage} alt="" /> */}
           <a href={urlhd[0]} target="_blank" rel="noopener noreferrer">
             <img src={urlImage} alt="" />
           </a>
-          {/* <Modal.Dialog>dedede</Modal.Dialog> */}
         </Modal.Body>
       </Modal>
 
@@ -100,7 +97,6 @@ class MuestraCards extends React.Component {
     const items = this.props.MuestraItems
     const loading = this.props.loading
     const hits = this.props.hits
-    // console.log(items)
 
     const page = this.props.page
 
@@ -125,11 +121,9 @@ class MuestraCards extends React.Component {
 
       <Container fluid={true} className="py-4">
         <Row>
-          {/* <h2 className="mx-auto">{hits}</h2> */}
           {loading ? (
             <></>
           ) : (
-
               <RestaPagina />
             )}
         </Row>
@@ -141,7 +135,6 @@ class MuestraCards extends React.Component {
           ) : (
               items.map((postData, i) => (
                 <div key={i} className="col-xl-3 col-md-4">
-                  {/* {console.log(postData)} */}
                   <CardListItem postData={postData} />
                 </div>
               ))
