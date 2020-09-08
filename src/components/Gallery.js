@@ -28,7 +28,7 @@ function Gallery({ images }) {
   // console.log(res)
 
   function Video() {
-    if (imgMedia === 'video') {
+    if (imgMedia === 'video' || 'vimeo') {
       return (
         <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
           <iframe title={imgTitle} src={urlImage}
@@ -48,7 +48,7 @@ function Gallery({ images }) {
     // console.log(url)
     if (media === 'video') {
       const imgvideo = url.slice(30, 41);
-      const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`
+      const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`;
       return (
         <>
           <div className="video-gallery-overlay">
@@ -57,7 +57,19 @@ function Gallery({ images }) {
           <img className="img-gallery" alt="it's a video" src={http} />
         </>
       )
-    } else {
+    } else if (media === 'vimeo') {
+      const imgvimeo = url.slice(31, 40);
+      const httpvimeo = `https://vumbnail.com/${imgvimeo}.jpg`;
+    
+      return(
+        <>
+          <div className="video-gallery-overlay">
+            <img src={play} className="video-play-gallery" />
+          </div>
+          <img className="img-gallery" alt="it's a video" src={httpvimeo} />
+        </>
+      )
+    }else {
       return (
         <img alt=" Upps !!!" src={url} />
       )
@@ -69,7 +81,7 @@ function Gallery({ images }) {
       <div className="content pt-5">
         {images.map((img, i) => (
           <div key={i} className="img-box">
-            <a href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>
+            <a className="play-padre" href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>
               {/* <img alt="sample text" src={img.url} /> */}
               <ImgVideo media={img.media_type} url={img.url} />
             </a>

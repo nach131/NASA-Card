@@ -76,7 +76,7 @@ function CardListItem({ postData }) {
   return (
     <React.Fragment>
       <Card className="mb-4 shadow-sm">
-        <a href={postData.links ? postData.links[0].href : null} onClick={e => handleShow(e, postData.links[0].href, postData.data[0].title, postData.href)}>
+        <a className="play-padre" href={postData.links ? postData.links[0].href : null} onClick={e => handleShow(e, postData.links[0].href, postData.data[0].title, postData.href)}>
           <PlayIco />
           <Card.Img variant="top" src={postData.links ? postData.links[0].href : null} />
 

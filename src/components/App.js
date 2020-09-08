@@ -18,6 +18,7 @@ import Year2013 from '../pages/PictureDay'
 import Year2012 from '../pages/PictureDay'
 import Year2011 from '../pages/PictureDay'
 import Year2010 from '../pages/PictureDay'
+import vimeo from '../pages/PictureDay'
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route exact path="/year/2018" component={Year2018} />
           <Route exact path="/year/2019" component={Year2019} />
           <Route exact path="/year/2020" component={Year2020} />
+          <Route exact path="/vimeo" component={vimeo} />
           <Route exact path="/ani" component={Animacion} />
           <Route exact path="/sun" component={Ejemplos} />
           <Route exact path="/curiosity" component={Ejemplos} />

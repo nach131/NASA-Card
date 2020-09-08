@@ -524,7 +524,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "The Cloudy Cores of Active Galaxies",
-      "url": "//www.youtube.com/embed/QA8nzRkjOEw?rel=0"
+      "url": "https://www.youtube.com/embed/QA8nzRkjOEw"
   },
   {
       "copyright": "David Lane",
@@ -677,7 +677,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "The Sun Rotating",
-      "url": "//www.youtube.com/embed/2WRgXvdasm0?rel=0"
+      "url": "https://www.youtube.com/embed/2WRgXvdasm0?rel=0"
   },
   {
       "copyright": "Bill\nSnyder",
@@ -743,7 +743,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Equinox on a Spinning Earth",
-      "url": "//www.youtube.com/embed/LUW51lvIFjg?rel=0"
+      "url": "https://www.youtube.com/embed/LUW51lvIFjg?rel=0"
   },
   {
       "copyright": "Maciej Zapiór\nand\nŁukasz Fajfrowski",
@@ -935,10 +935,10 @@ const images =
   {
       "date": "2014-04-09",
       "explanation": "Asteroids can have rings. In a surprising discovery announced two weeks ago, the distant asteroid 10199 Chariklo was found to have at least two orbiting rings. Chariklo's diameter of about 250 kilometers makes it the largest of the measured centaur asteroids, but now the smallest known object to have rings. The centaur-class minor planet orbits the Sun between Saturn and Uranus. The above video gives an artist's illustration of how the rings were discovered. As Chariklo passed in 2013 in front of a faint star, unexpected but symmetric dips in the brightness of the star revealed the rings. Planetary astronomers are now running computer simulations designed to investigate how Chariklo's unexpected ring system might have formed, how it survives, and given the asteroid's low mass and close passes of other small asteroids and the planet Uranus, how long it may last.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Two Rings for Asteroid Chariklo",
-      "url": "//player.vimeo.com/video/90101198?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/90101198"
   },
   {
       "copyright": "Tunç Tezel",
@@ -1120,7 +1120,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Time Lapse of a Total Lunar Eclipse",
-      "url": "//www.youtube.com/embed/KBBFzHLvrvA?rel=0"
+      "url": "https://www.youtube.com/embed/KBBFzHLvrvA?rel=0"
   },
   {
       "copyright": "John Chumack",
@@ -1254,7 +1254,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Illustris Simulation of the Universe",
-      "url": "//www.youtube.com/embed/QSivvdIyeG4?rel=0"
+      "url": "https://www.youtube.com/embed/QSivvdIyeG4?rel=0"
   },
   {
       "copyright": "Jason Jenningscosmicphotos",
@@ -1336,7 +1336,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "A Supercell Storm Cloud Forming over Wyoming",
-      "url": "//www.youtube.com/embed/VoO89cqDgJU?rel=0"
+      "url": "https://www.youtube.com/embed/VoO89cqDgJU?rel=0"
   },
   {
       "copyright": "Martin Pugh",
@@ -1383,7 +1383,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "An ALMA Telescope Array Time-Lapse",
-      "url": "//www.youtube.com/embed/eKGpsM0LGyY?rel=0"
+      "url": "https://www.youtube.com/embed/eKGpsM0LGyY?rel=0"
   },
   {
       "copyright": "Subaru\nTelescopeNAOJHubble Space\nTelescope\n Processing: \nRobert Gendler &\nRoberto Colombari\n",
@@ -1583,7 +1583,7 @@ const images =
   {
       "date": "2014-06-16",
       "explanation": "The first APOD appeared 19 years ago today. To help celebrate, APOD brings you today an all-sky heatmap of (nearly) 19 years of APOD entries. The brighter a region appears on the above heatmap, the more APODs that occur in that region.  Clicking anywhere on the map will bring up a link to all APODs, if any, that appear nearby.  We at APOD again thank our readers, NASA, astrophotographers, volunteers who translate APOD daily into over 20 languages, volunteers who run APOD's over 20 mirror sites, volunteers who answer questions and administer APOD's main discussion board, and volunteers who run and update APOD's social media sites and smartphone applications for their continued support.",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "APOD Heatmap",
       "url": "http://apod.it/mapfull.shtml"
@@ -1594,7 +1594,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "V838 Light Echo: The Movie",
-      "url": "//www.youtube.com/embed/93L0IEbUJsk?rel=0"
+      "url": "https://www.youtube.com/embed/93L0IEbUJsk?rel=0"
   },
   {
       "copyright": "Roberto ColombariSONEAR Obs.Robert GendlerRyan Hannahoe",
@@ -2123,7 +2123,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Rosetta Approaches Comet Churyumov-Gerasimenko",
-      "url": "//www.youtube.com/embed/UZQy3-zXq-M?rel=0"
+      "url": "https://www.youtube.com/embed/UZQy3-zXq-M?rel=0"
   },
   {
       "copyright": "ESA",
@@ -2265,7 +2265,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Flying Past Neptune's Moon Triton",
-      "url": "//www.youtube.com/embed/b7sKqDAEndE?rel=0"
+      "url": "https://www.youtube.com/embed/b7sKqDAEndE?rel=0"
   },
   {
       "copyright": "Dave Lane",
@@ -2379,10 +2379,10 @@ const images =
       "copyright": "Mark Gee Music:",
       "date": "2014-09-07",
       "explanation": "Have you ever watched the Moon rise? The slow rise of a nearly full moon over a clear horizon can be an impressive sight. One impressive moonrise was imaged in early 2013 over Mount Victoria Lookout in Wellington, New Zealand. With detailed planning, an industrious astrophotographer placed a camera about two kilometers away and pointed it across the lookout to where the Moon would surely soon be making its nightly debut. The above single shot sequence is unedited and shown in real time -- it is not a time lapse. People on Mount Victoria Lookout can be seen in silhouette themselves admiring the dawn of Earth's largest satellite. Seeing a moonrise yourself is not difficult: it happens every day, although only half the time at night. Each day the Moon rises about fifty minutes later than the previous day, with a full moon always rising at sunset.  A good time to see a moonrise will occur at sunset on Tuesday as the Moon's relative closeness to Earth during a full phase -- called a supermoon -- will cause it to appear slightly larger and brighter than usual.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Full Moon Silhouettes",
-      "url": "https://player.vimeo.com/video/58385453?portrait=0"
+      "url": "https://player.vimeo.com/video/58385453"
   },
   {
       "copyright": "Catalin Paduraru",
@@ -2526,7 +2526,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Earth at Equinox",
-      "url": "//www.youtube.com/embed/y4er-S_lNRs?rel=0"
+      "url": "https://www.youtube.com/embed/y4er-S_lNRs?rel=0"
   },
   {
       "copyright": "Stéphane VetterNuits sacrées",
@@ -2649,10 +2649,10 @@ const images =
       "copyright": "Jean-Luc DauvergneCiel et Espace Music: Space-Music",
       "date": "2014-10-05",
       "explanation": "If the full Moon suddenly faded, what would you see? The answer during the total lunar eclipse of 2011 June was recorded in a dramatic time lapse video from Tajikistan. During a total lunar eclipse, the Earth moves between the Moon and the Sun, causing the moon to fade dramatically. The Moon never gets completely dark, though, since the Earth's atmosphere refracts some light. As the above video begins, the scene may appear to be daytime and sunlit, but actually it is a nighttime and lit by the glow of the full Moon. As the moon becomes eclipsed and fades, the wind dies down and background stars can be seen reflected in foreground lake. Most spectacularly, the sky surrounding the eclipsed moon suddenly appears to be full of stars and highlighted by the busy plane of our Milky Way Galaxy. The sequence repeats with a closer view, and the final image shows the placement of the eclipsed Moon near the Eagle, Swan, Trifid, and Lagoon nebulas. Nearly two hours after the eclipse started, the moon emerged from the Earth's shadow and its bright full glare again dominated the sky.  The next total lunar eclipse will occur this Wednesday.    APOD Wall Calendar: Moons and Planets",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "A Total Lunar Eclipse Over Tajikistan",
-      "url": "//player.vimeo.com/video/25808333?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/25808333"
   },
   {
       "date": "2014-10-06",
@@ -2728,7 +2728,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Sprite Lightning in Slow Motion",
-      "url": "//www.youtube.com/embed/i3StAXEbGSM?rel=0&controls=0"
+      "url": "https://www.youtube.com/embed/i3StAXEbGSM?rel=0&controls=0"
   },
   {
       "copyright": "Harald Albrigtsen",
@@ -2813,7 +2813,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Sunspot Group AR 2192 Crackles",
-      "url": "//www.youtube.com/embed/J19vi8UPKck?rel=0&controls=0"
+      "url": "https://www.youtube.com/embed/J19vi8UPKck?rel=0&controls=0"
   },
   {
       "copyright": "AeW Observatory",
@@ -3129,7 +3129,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Soaring over Titan",
-      "url": "//www.youtube.com/embed/RrGPtCdItBw?rel=0"
+      "url": "https://www.youtube.com/embed/RrGPtCdItBw?rel=0"
   },
   {
       "copyright": "Derek DemeterEmil\nBuehler Planetarium",
@@ -3260,10 +3260,10 @@ const images =
   {
       "date": "2014-12-08",
       "explanation": "How far out will humanity explore? If this video's fusion of real space imagery and fictional space visualizations is on the right track, then at least the Solar System. Some of the video's wondrous sequences depict future humans drifting through the rings of Saturn, exploring Jupiter from a nearby spacecraft, and jumping off a high cliff in the low gravity of a moon of Uranus. Although no one can know the future, wandering and exploring beyond boundaries -- both physical and intellectual -- is part of the human spirit and has frequently served humanity well in the past.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Wanderers",
-      "url": "//player.vimeo.com/video/108650530?title=0&byline=0&portrait=0&badge=0&color=ffffff"
+      "url": "https://player.vimeo.com/video/108650530"
   },
   {
       "copyright": "Aldo Mottino",

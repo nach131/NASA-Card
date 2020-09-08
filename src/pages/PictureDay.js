@@ -12,6 +12,7 @@ import Img2013 from '../data/2013'
 import Img2012 from '../data/2012'
 import Img2011 from '../data/2011'
 import Img2010 from '../data/2010'
+import vimeo from '../data/vimeo'
 
 
 class PictureDay extends Component {
@@ -41,7 +42,7 @@ class PictureDay extends Component {
       case "/year/2010":
         return <Gallery images={Img2010} />;
       default:
-        return <Gallery images={Img2010} />;
+        return <Gallery images={vimeo} />;
     }
   }
 }

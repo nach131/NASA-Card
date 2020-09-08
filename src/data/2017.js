@@ -1605,10 +1605,10 @@ const images = [
   {
       "date": "2017-06-18",
       "explanation": "What has the Cassini orbiter seen at Saturn? The featured music video shows some of the early highlights. In the first time-lapse sequence (00:07), a vertical line appears that is really Saturn's thin rings seen nearly edge-on.  Soon some of Saturn's moon shoot past.  The next sequence (00:11) features Saturn's unusually wavy F-ring that is constrained by the two shepherd moons that are also continually perturbing it.  Soon much of Saturn's extensive ring system flashes by, sometimes juxtaposed to the grandeur of the immense planet itself. Cloud patterns on Titan (00:39) and Saturn (00:41) are highlighted. Clips from flybys of several of Saturn's moon are then shown, including Phoebe, Mimas, Epimetheus, and Iapetus. In other sequences, moons of Saturn appear to pass each other as they orbit Saturn. Background star fields seen by Cassini are sometimes intruded upon by bright passing moons. The robotic Cassini spacecraft has been revolutionizing humanity's knowledge of Saturn and its moons since 2004. In September, Cassini's mission will be brought to a dramatic conclusion as the spacecraft will be directed to dive into ringed giant.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Views from Cassini at Saturn",
-      "url": "https://player.vimeo.com/video/24410924?color=000000&title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/24410924"
   },
   {
       "date": "2017-06-19",
@@ -2201,10 +2201,10 @@ const images = [
       "copyright": "Colin Legg",
       "date": "2017-08-20",
       "explanation": "Have you ever experienced a total eclipse of the Sun?  This time-lapse movie depicts such an eclipse in dramatic detail, seen from Australia in 2012. As the video begins, a slight dimming of the Sun and the surrounding Earth is barely perceptible. As the Moon moves to cover nearly the entire Sun, darkness sweeps in from the left -- the fully blocked part of the Sun.  At totality, only the bright solar corona extends past the edges of the Moon, and darkness surrounds you. Distant horizons are still bright, though, as they are not in the darkest part of the shadow.  At mid-totality the darkness dips to the horizon below the eclipsed Sun, created by the shadow cone -- a corridor of shadow that traces back to the Moon. As the total solar eclipse ends -- usually after a few minutes -- the process reverses and Moon's shadow moves off to the other side. Tomorrow afternoon's total solar eclipse -- visible as at least a partial eclipse over all of North America -- can be experienced at social gatherings, some of which are being organized by local libraries.    Tomorrow's Eclipse: Live NASA Streaming Video",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Time-Lapse: A Total Solar Eclipse",
-      "url": "https://player.vimeo.com/video/53641212?color=000000&title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/53641212"
   },
   {
       "copyright": "Carlos Eduardo Fairbairn",
@@ -2411,10 +2411,10 @@ const images = [
       "copyright": "Cassini Imaging TeamISSJPLESANASAS. Van Vuuren\nMusic:\nAdagio for Strings\n(NY Philharmonic)\n",
       "date": "2017-09-11",
       "explanation": "What would it look like to approach Saturn in a spaceship? One doesn't have to just imagine -- the Cassini spacecraft did just this in 2004, recording thousands of images along the way, and hundreds of thousands more since entering orbit. Some of Cassini's early images have been digitally tweaked, cropped, and compiled into the featured inspiring video which is part of a larger developing IMAX movie project named In Saturn's Rings.  In the concluding sequence, Saturn looms increasingly large on approach as cloudy Titan swoops below. With Saturn whirling around in the background, Cassini is next depicted flying over Mimas, with large Herschel Crater clearly visible. Saturn's majestic rings then take over the show as Cassini crosses Saturn's thin ring plane. Dark shadows of the ring appear on Saturn itself. Finally, the enigmatic ice-geyser moon Enceladus appears in the distance and then is approached just as the video clip ends. The Cassini spacecraft itself, low on fuel, is scheduled to end on Friday when it will be directed to approach so close to Saturn that it falls in and melts.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Cassini Approaches Saturn",
-      "url": "https://player.vimeo.com/video/11386048#t=0m58s?color=8BA0FF&portrait=0"
+      "url": "https://player.vimeo.com/video/11386048"
   },
   {
       "copyright": "KAISTHuboLab\n Music: \nFlowing Air by \nMattia Vlad Morleo\n",
@@ -2423,7 +2423,7 @@ const images = [
       "media_type": "video",
       "service_version": "v1",
       "title": "A Total Solar Eclipse Close-Up in Real Time",
-      "url": "https://www.youtube.com/embed/5D9j-8Vhyto?rel=0&showinfo=0"
+      "url": "https://www.youtube.com/embed/5D9j-8Vhyto"
   },
   {
       "copyright": "George Varouhakis",
@@ -3202,10 +3202,10 @@ const images = [
       "copyright": "Mark Gee Music:",
       "date": "2017-12-03",
       "explanation": "Have you ever watched the Moon rise? The slow rise of a nearly full moon over a clear horizon can be an impressive sight. One impressive moonrise was imaged in early 2013 over Mount Victoria Lookout in Wellington, New Zealand. With detailed planning, an industrious astrophotographer placed a camera about two kilometers away and pointed it across the lookout to where the Moon would surely soon be making its nightly debut. The featured single shot sequence is unedited and shown in real time -- it is not a time lapse. People on Mount Victoria Lookout can be seen in silhouette themselves admiring the dawn of Earth's largest satellite. Seeing a moonrise yourself is not difficult: it happens every day, although only half the time at night. Each day the Moon rises about fifty minutes later than the previous day, with a full moon always rising at sunset.  A good time to see a full moonrise will occur tonight at sunset as the Moon's relative closeness to Earth during a full phase -- called a supermoon -- will cause it to appear slightly larger and brighter than usual.   Free Download: The 2018 APOD Calendar",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Full Moon Silhouettes",
-      "url": "https://player.vimeo.com/video/58385453?portrait=0&badge=0"
+      "url": "https://player.vimeo.com/video/58385453"
   },
   {
       "date": "2017-12-04",

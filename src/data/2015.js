@@ -108,7 +108,7 @@ const images = [
   {
       "date": "2015-01-12",
       "explanation": "Can you create a planetary system that lasts for 500 years? Super Planet Crash, the featured game, allows you to try.  To create up to ten planets, just click anywhere near the central star.  Planet types can be selected on the left in order of increasing mass: Earth, Super-Earth, Ice giant, Giant planet, Brown dwarf, or Dwarf star. Each planet is gravitationally attracted not only to the central Sun-like star, but to other planets. Points are awarded, with bonus factors applied for increasingly crowded and habitable systems. The game ends after 500 years or when a planet is gravitationally expelled. Many exoplanetary systems are being discovered in recent years, and Super Planet Crash demonstrates why some remain stable.  As you might suspect after playing Super Planet Crash a few times, there is reason to believe that our own Solar System has lost planets during its formation.",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "Super Planet Crash",
       "url": "http://www.stefanom.org/spc/"
@@ -1057,7 +1057,7 @@ const images = [
   {
       "date": "2015-04-21",
       "explanation": "You can explore asteroid Vesta. Recently, NASA's robotic spaceship Dawn visited Vesta, the second largest object in our Solar System's main asteroid belt, which lies between Mars and Jupiter. During a year-long stopover, Dawn's cameras photographed Vesta's entire surface, documenting all of the minor planet's major mountains and craters. These images have now been combined into a digital model that allows anyone with a full-featured browser to fly all around Vesta, virtually, and even zoom in on interesting surface features, by just dragging and clicking. If desired, the initially flat 2D map can be wrapped into a nearly spherical object by clicking on the 3D icon at the bottom. Dawn departed Vesta in 2012 and is now just beginning to photograph and explore the mysteries of the largest object in the asteroid belt: dwarf-planet Ceres.   News: Ceres' mysterious bright spots come back into view.",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "Vesta Trek: A Digital Model of Asteroid Vesta",
       "url": "http://vestatrek.jpl.nasa.gov/"
@@ -1450,10 +1450,10 @@ const images = [
       "copyright": "Stéphane VetterNuits sacrées Music: Eric Aron",
       "date": "2015-06-01",
       "explanation": "Why do some auroras pulsate? No one is sure. Although this unusual behavior has been known for a long time, the cause remains an active topic of research. Featured here is a dramatic video that captured some impressive pulsating auroras in mid-March over Sv�nafellsj�kull Glacier in Iceland. The 48-second video shown is not time-lapse.  The real-time pulsations are exemplified by sequences where the astrophotographer is visible moving about in the foreground.  A close inspection of the enigmatic flickering sky colors reveals that some structures appear to repeat, while others do not. The quick rapidity of the pulsations seen here is somewhat unusual -- more common are aurora with pulsations that last several seconds. Recent research shows that pulsations are more common in electron-generated aurora, rather than proton aurora, and that the Earth's local magnetic field may fluctuate in unison.   Astrophysicists: Browse 1,000+ codes in the Astrophysics Source Code Library",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Pulsating Aurora over Iceland",
-      "url": "https://player.vimeo.com/video/128714112?color=ffffff&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/128714112"
   },
   {
       "copyright": "Rogelio\nBernal Andreo",
@@ -3403,10 +3403,10 @@ const images = [
       "copyright": "Ken MurphyMurphLab Music: Moby",
       "date": "2015-12-22",
       "explanation": "Can you find which day is the winter solstice?  Each panel shows one day. With 360 movie panels, the sky over (almost) an entire year is shown in time lapse format as recorded by a video camera on the roof of the Exploratorium museum in San Francisco, California. The camera recorded an image every 10 seconds from before sunrise to after sunset and from mid-2009 to mid-2010.  A time stamp showing the local time of day is provided on the lower right. The videos are arranged chronologically, with July 28 shown on the upper left, and January 1 located about half way down.  In the videos, darkness indicates night, blue depicts clear day, while gray portrays pervasive daytime cloud cover. Many videos show complex patterns of clouds moving across the camera's wide field as that day progresses. The initial darkness in the middle depicts the delayed dawn and fewer daylight hours of winter. Although every day lasts 24 hours, nighttime lasts longest in the northern hemisphere in December and the surrounding winter months. Therefore, finding the panel with the longest night will locate the day of winter solstice -- which happens to be today in the northern hemisphere.  As the videos collectively end, sunset and then darkness descend first on the winter days just above the middle, and last on the mid-summer near the bottom.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Solstice Illuminated: A Year of Sky",
-      "url": "https://player.vimeo.com/video/32095756?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/32095756"
   },
   {
       "copyright": "Steed YuNightChina.net",

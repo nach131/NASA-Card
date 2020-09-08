@@ -259,7 +259,7 @@ const images = [
       "copyright": "Jean-Luc DauvergneCiel et Espace Music: Space-Music",
       "date": "2018-01-28",
       "explanation": "If the full Moon suddenly faded, what would you see? The answer during the total lunar eclipse in 2011 was recorded in a dramatic time lapse video from Tajikistan. During a total lunar eclipse, the Earth moves between the Moon and the Sun, causing the moon to fade dramatically. The Moon never gets completely dark, though, since the Earth's atmosphere refracts some light. As the featured video begins, the scene may appear to be daytime and sunlit, but actually it is a nighttime and lit by the glow of the full Moon. As the Moon becomes eclipsed and fades, the wind dies down and background stars can be seen reflected in foreground lake. Most spectacularly, the sky surrounding the eclipsed moon suddenly appears to be full of stars and highlighted by the busy plane of our Milky Way Galaxy. The sequence repeats with a closer view, and the final image shows the placement of the eclipsed Moon near the Eagle, Swan, Trifid, and Lagoon nebulas. Nearly two hours after the eclipse started, the moon emerges from the Earth's shadow and its bright full glare again dominates the sky. This Wednesday another total lunar eclipse will take place -- but this one will be during a rare Super Blue Blood Moon.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "A Total Lunar Eclipse Over Tajikistan",
       "url": "https://player.vimeo.com/video/25808333"
@@ -597,7 +597,7 @@ const images = [
   {
       "date": "2018-03-05",
       "explanation": "Have you heard about the Hubble Ultra-Deep Field?  Either way, you've likely not heard about it like this -- please run your pointer over the featured image and listen!  The Hubble Ultra-Deep Field (HUDF) was created in 2003-2004 with the Hubble Space Telescope staring for a long time toward near-empty space so that distant, faint galaxies would become visible.  One of the most famous images in astronomy, the HUDF is featured here in a vibrant way -- with sonified distances. Pointing to a galaxy will play a note that indicates its approximate redshift. Because redshifts shift light toward the red end of the spectrum of light, they are depicted here by a shift of tone toward the low end of the spectrum of sound.  The further the galaxy, the greater its cosmological redshift (even if it appears blue), and the lower the tone that will be played. The average galaxy in the HUDF is about 10.6 billion light years away and sounds like an F#. What's the most distant galaxy you can find?  This Astronomy Picture of the Day (APOD) is based on an entry of new site called Astronomy Sound of the Month (AstroSoM).    Note: The sounds will only play on some browsers.",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "The Hubble Ultra-Deep Field in Light and Sound",
       "url": "https://apod.nasa.gov/apod/image/1803/AstroSoM/hudf.html"
@@ -1069,7 +1069,7 @@ const images = [
   {
       "date": "2018-04-24",
       "explanation": "Sure, you've seen Saturn's rings -- but have you ever heard them? Well then please take this opportunity to play Saturn's rings like a harp.  In the featured sonification, increasing brighter regions of Saturn's central B-ring play as increasingly higher pitched notes. With a computer browser, click anywhere on the image to begin, and pluck consecutive strings by sliding the spacecraft icon's magnetometer boom across the strings.  Both manual and automatic modes are possible.  The featured natural-color image was taken by the late Cassini spacecraft in 2017 July as it grazed Saturn's rings and took the highest-resolution ring images ever.  The reason why the mostly water-ice rings have a tan hue -- instead of white -- is currently a topic of research.  Played in minor harmony, a different false-color version of the same image appears where regions with a greater abundance of water ice appears more red.",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "Play Saturn's Rings Like a Harp",
       "url": "https://apod.nasa.gov/apod/image/1804/saturn-harp/index.html"
@@ -1115,10 +1115,10 @@ const images = [
   {
       "date": "2018-04-29",
       "explanation": "How far out will humanity explore? If this video's fusion of real space imagery and fictional space visualizations is on the right track, then at least the Solar System. Some of the video's wondrous sequences depict future humans drifting through the rings of Saturn, exploring Jupiter from a nearby spacecraft, and jumping off a high cliff in the low gravity of a moon of Uranus. Although no one can know the future, wandering and exploring beyond boundaries -- both physical and intellectual -- is part of the human spirit and has frequently served humanity well in the past.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Wanderers",
-      "url": "//player.vimeo.com/video/108650530?title=0&byline=0&portrait=0&badge=0&color=ffffff"
+      "url": "https://player.vimeo.com/video/108650530"
   },
   {
       "copyright": "Nicolas Lefaudeux",
