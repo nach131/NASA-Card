@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import play from '../images/play-alt.svg'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 function Gallery({ images }) {
   const [show, setShow] = useState(false);
@@ -23,29 +25,6 @@ function Gallery({ images }) {
     setShow(true);
   };
 
-  //   const str = "https://www.youtube.com/embed/iRL268cXaqk?rel=0"; 
-  //   const res = str.slice(30,41);
-  // console.log(res)
-
-  // function Video() {
-  //   if (imgMedia === 'video'||'vimeo' ) {
-  //     return (
-  //       <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-  //         <iframe title={imgTitle} src={urlImage}
-  //           alt={imgTitle} allowfullscreen="">
-  //         </iframe>
-  //       </div>
-  //     )
-  //   } else{
-  //     return (
-
-  //       <a href={urlHDimage} target="_blank" rel="noopener noreferrer">
-  //         <img src={urlImage} alt={imgTitle} />
-  //       </a>
-  //     )
-  //   }
-  // }
-
   function Video() {
     switch (imgMedia) {
       case "video":
@@ -66,8 +45,8 @@ function Gallery({ images }) {
         )
       case "html":
         return (
-        <a href={urlImage} target="_blank" rel="noopener noreferrer">{imgTitle} </a>
-          )
+          <a href={urlImage} target="_blank" rel="noopener noreferrer">{imgTitle} </a>
+        )
       default:
         return (
           <a href={urlHDimage} target="_blank" rel="noopener noreferrer">
@@ -76,38 +55,42 @@ function Gallery({ images }) {
         )
     }
   }
-
-
   function ImgVideo({ media, url }) {
     // console.log(url)
-    if (media === 'video') {
-      const imgvideo = url.slice(30, 41);
-      const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`;
-      return (
-        <>
-          <div className="video-gallery-overlay">
-            <img src={play} className="video-play-gallery" />
-          </div>
-          <img className="img-gallery" alt="it's a video" src={http} />
-        </>
-      )
-    } else if (media === 'vimeo') {
-      const imgvimeo = url.slice(31, 40);
-      const httpvimeo = `https://vumbnail.com/${imgvimeo}.jpg`;
-      return (
-        <>
-          <div className="video-gallery-overlay">
-            <img src={play} className="video-play-gallery" />
-          </div>
-          <img className="img-gallery" alt="it's a video" src={httpvimeo} />
-        </>
-      )
-    } else {
-      return (
-        <img alt=" Upps !!!" src={url} />
-      )
+    switch (media) {
+      case "video":
+        const imgvideo = url.slice(30, 41);
+        const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`;
+        return (
+          <>
+            <div className="video-gallery-overlay">
+              <img src={play} className="video-play-gallery" />
+            </div>
+            <img className="img-gallery" alt="it's a video" src={http} />
+          </>
+        )
+      case "vimeo":
+        const imgvimeo = url.slice(31, 40);
+        const httpvimeo = `https://vumbnail.com/${imgvimeo}.jpg`;
+        return (
+          <>
+            <div className="video-gallery-overlay">
+              <img src={play} className="video-play-gallery" />
+            </div>
+            <img className="img-gallery" alt="it's a video" src={httpvimeo} />
+          </>
+        )
+      case "image":
+        return (
+          <img alt="Uppps ... !!!" src={url} />
+        )
+      case "html":
+        return (
+          <FontAwesomeIcon icon={faExternalLinkAlt} size="9x" />
+        )
     }
   }
+
 
   return (
     <React.Fragment>

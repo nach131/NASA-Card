@@ -17,7 +17,7 @@ const images = [{
 }, {
     "date": "2018-04-29",
     "explanation": "How far out will humanity explore? If this video's fusion of real space imagery and fictional space visualizations is on the right track, then at least the Solar System. Some of the video's wondrous sequences depict future humans drifting through the rings of Saturn, exploring Jupiter from a nearby spacecraft, and jumping off a high cliff in the low gravity of a moon of Uranus. Although no one can know the future, wandering and exploring beyond boundaries -- both physical and intellectual -- is part of the human spirit and has frequently served humanity well in the past.",
-    "media_type": "vimeo",
+    "media_type": "html",
     "service_version": "v1",
     "title": "Wanderers",
     "url": "https://player.vimeo.com/video/108650530"
@@ -25,7 +25,7 @@ const images = [{
     "copyright": "Jean-Luc DauvergneCiel et Espace Music: Space-Music",
     "date": "2018-01-28",
     "explanation": "If the full Moon suddenly faded, what would you see? The answer during the total lunar eclipse in 2011 was recorded in a dramatic time lapse video from Tajikistan. During a total lunar eclipse, the Earth moves between the Moon and the Sun, causing the moon to fade dramatically. The Moon never gets completely dark, though, since the Earth's atmosphere refracts some light. As the featured video begins, the scene may appear to be daytime and sunlit, but actually it is a nighttime and lit by the glow of the full Moon. As the Moon becomes eclipsed and fades, the wind dies down and background stars can be seen reflected in foreground lake. Most spectacularly, the sky surrounding the eclipsed moon suddenly appears to be full of stars and highlighted by the busy plane of our Milky Way Galaxy. The sequence repeats with a closer view, and the final image shows the placement of the eclipsed Moon near the Eagle, Swan, Trifid, and Lagoon nebulas. Nearly two hours after the eclipse started, the moon emerges from the Earth's shadow and its bright full glare again dominates the sky. This Wednesday another total lunar eclipse will take place -- but this one will be during a rare Super Blue Blood Moon.",
-    "media_type": "vimeo",
+    "media_type": "other",
     "service_version": "v1",
     "title": "A Total Lunar Eclipse Over Tajikistan",
     "url": "https://player.vimeo.com/video/25808333"
