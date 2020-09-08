@@ -387,9 +387,10 @@ const images =
       "copyright": "Red Bull StratosGoPro\n Music:  \nWilderness is Their Home Now & Satellites \n(East of the River),\nExtremeMusic\n",
       "date": "2014-02-10",
       "explanation": "What would it be like to fall to Earth from really high up? A new record for the highest jump was accomplished in 2012 by Felix Baumgartner. Surpassing the previous record of 31.3 kilometer plummet, Baumgartner, in a commercial venture, jumped off a floating balloon platform 39.0 kilometers above New Mexico, USA and had his entire fall recorded on video. Baumgartner wore a pressurized suit able to provide breathable air and warmth while up in the balloon and during his fall. Free falling 36.4 km before deploying his parachute, Baumgartner surpassed 1,000 km per hour and the sound barrier during the descent. The above video records his four minutes and 19 seconds of free fall in real time.  The stunt included a somewhat unexpected but potentially dangerous spin that occurred during the second minute which could have knocked out or disoriented Baumgartner. After an enthralling plummet, Baumgartner's parachutes deployed and he landed safely.",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Falling to Earth"
+      "title": "Falling to Earth",
+      "url": "https://www.youtube.com/embed/dYw4meRWGd4"
   },
   {
       "copyright": "Leonardo Orazi",
@@ -1272,7 +1273,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "A Live View from the International Space Station",
-      "url": "https://www.ustream.tv/embed/17074538?v=3&wmode=direct&autoplay=true"
+      "url": "https://www.ustream.tv/embed/17074538"
   },
   {
       "copyright": "Rolf Olsen",

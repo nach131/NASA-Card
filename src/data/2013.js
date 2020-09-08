@@ -277,10 +277,10 @@ const images =
       "copyright": "Mark Gee Music:",
       "date": "2013-01-30",
       "explanation": "Have you ever watched the Moon rise? The slow rise of a nearly full moon over a clear horizon can be an impressive sight. One impressive moonrise was imaged two nights ago over Mount Victoria Lookout in Wellington, New Zealand. With detailed planning, an industrious astrophotographer placed a camera about two kilometers away and pointed it across the lookout to where the Moon would surely soon be making its nightly debut. The above single shot sequence is unedited and shown in real time -- it is not a time lapse. People on Mount Victoria Lookout can be seen in silhouette themselves admiring the dawn of Earth's largest satellite. Seeing a moonrise yourself is not difficult: it happens every day, although only half the time at night. Each day the Moon rises about fifty minutes later than the previous day, with a full moon always rising at sunset.   Best of APOD 2012: Download a free 2013 APOD Calendar",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Full Moon Silhouettes",
-      "url": "https://player.vimeo.com/video/58385453?portrait=0"
+      "url": "https://player.vimeo.com/video/58385453"
   },
   {
       "copyright": "Ivan Eder",
@@ -324,10 +324,10 @@ const images =
       "copyright": "Marsel van Oosten Music:",
       "date": "2013-02-04",
       "explanation": "Namibia has some of the darkest nights visible from any continent.  It is therefore home to some of the more spectacular skyscapes, a few of which have been captured in the above time-lapse video.  Visible at the movie start are unusual quiver trees perched before a deep starfield highlighted by the central band of our Milky Way Galaxy. This bright band of stars and gas appears to pivot around the celestial south pole as our Earth rotates. The remains of camel thorn trees are then seen against a sky that includes a fuzzy patch on the far right that is the Large Magellanic Cloud, a small satellite galaxy to the Milky Way.  A bright sunlight-reflecting satellite passes quickly overhead. Quiver trees appear again, now showing their unusual trunks, while the Small Magellanic Cloud becomes clearly visible in the background. Artificial lights illuminate a mist that surround camel thorn trees in Deadvlei. In the final sequence, natural Namibian stone arches are captured against the advancing shadows of the setting moon. This video incorporates over 16,000 images shot over two years, and won top honors among the 2012 Travel Photographer of the Year awards.   Poll: Choose your favorite January APODs",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Namibian Nights",
-      "url": "https://player.vimeo.com/video/57130400?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/57130400"
   },
   {
       "date": "2013-02-05",
@@ -447,7 +447,7 @@ const images =
       "copyright": "Daniel L�pezEl Cielo de Canarias",
       "date": "2013-02-17",
       "explanation": "There it goes.  That small spot moving in front of background stars in the above video is a potentially dangerous asteroid passing above the Earth's atmosphere. This past Friday, the 50-meter wide asteroid 2012 DA14 just missed the Earth, passing not only inside the orbit of the Moon, which is unusually close for an asteroid of this size, but also inside the orbit of geosynchronous satellites. Unfortunately, asteroids this big or bigger strike the Earth every 1000 years or so. Were 2012 DA14 to have hit the Earth, it could have devastated a city-sized landscape, or stuck an ocean and raised dangerous tsunamis. Although finding and tracking potentially dangerous asteroids is a primary concern of modern astronomy, these small bodies or ice and rock are typically so dim that only a few percent of them have been found, so far. Even smaller chunks of ice and rock, like the (unrelated) spectacular meteors that streaked over Russia and California over the past few days, are even harder to find -- but pose less danger.   Gallery: Videos and images of 2012 DA14",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Asteroid 2012 DA14 Passes the Earth",
       "url": "https://player.vimeo.com/video/59789517"
@@ -1514,10 +1514,10 @@ const images =
       "copyright": "Tor Even Mathisen",
       "date": "2013-06-09",
       "explanation": "Have you ever seen an aurora?  Auroras are occurring again with increasing frequency. With the Sun peaking at its eleven year maximum in aurora-triggering activity, it is exhibiting a greater abundance of sunspots, flares, and coronal mass ejections. Solar activity like this typically expels charged particles into the Solar System, some of which impact Earth's magnetosphere and trigger Earthly auroras. In late 2010, the above timelapse displays of picturesque auroras were captured above Troms�, Norway. Curtains of auroral light, usually green, flow, shimmer and dance as energetic particles fall toward the Earth and excite atoms of air high up in the Earth's atmosphere. There may even be opportunities to see auroras tonight, as recent solar explosions have triggered numerous aurora sightings over the past few days.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Flowing Auroras Over Norway",
-      "url": "https://player.vimeo.com/video/16917950?title=0"
+      "url": "https://player.vimeo.com/video/16917950"
   },
   {
       "date": "2013-06-10",
@@ -1544,7 +1544,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "All of Mercury",
-      "url": "//www.youtube.com/embed/DmYK479EpQc?vq=hd720&rel=0"
+      "url": "https://www.youtube.com/embed/DmYK479EpQc"
   },
   {
       "copyright": "Chris\nKotsiopoulos",
@@ -1599,10 +1599,10 @@ const images =
       "copyright": "Mike Olbinski Music: Incompetech",
       "date": "2013-06-18",
       "explanation": "Is that a cloud or an alien spaceship?  It's an unusual and sometimes dangerous type of thunderstorm cloud called a supercell. Supercells may spawn damaging tornados, hail, downbursts of air, or drenching rain.  Or they may just look impressive. A supercell harbors a mesocyclone -- a rising column of air surrounded by drafts of falling air.  Supercells could occur over many places on Earth but are particularly common in  Tornado Alley of the USA. Pictured above are four time lapse sequences of a supercell rotating above and moving across Booker, Texas.  Captured in the video are new clouds forming near the storm center, dust swirling on the ground, lightning flashing in the upper clouds, all while the impressively sculptured complex rotates ominously.  Finally, after a few hours, as shown in the final sequence, dense rain falls as the storm begins to die out.   Follow APOD on: Facebook (Daily) (Sky) (Spanish) or Google Plus (Daily) (River)",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "A Supercell Thunderstorm Over Texas",
-      "url": "https://player.vimeo.com/video/67995158?title=0&portrait=0"
+      "url": "https://player.vimeo.com/video/67995158"
   },
   {
       "copyright": "John H. Moore Annotation: Judy Schmidt\n",
@@ -1728,7 +1728,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Orbiting a Black Hole",
-      "url": "//www.youtube.com/embed/Jb_RrZhNf2Q?rel=0"
+      "url": "https://www.youtube.com/embed/Jb_RrZhNf2Q"
   },
   {
       "copyright": "Robert NemiroffMTU",
@@ -1737,7 +1737,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Circling a Black Hole at its Photon Sphere",
-      "url": "//www.youtube.com/embed/n_SqoQ60-c8?rel=0"
+      "url": "https://www.youtube.com/embed/n_SqoQ60-c8?rel=0"
   },
   {
       "copyright": "Bill Metallinos",
@@ -1948,10 +1948,10 @@ const images =
       "copyright": "Ken MurphyMurphLab Music Moby",
       "date": "2013-07-24",
       "explanation": "ch panel shows one day. With 360 movie panels, the sky over (almost) an entire year is shown in time lapse format as recorded by a video camera on the roof of the Exploratorium museum in San Francisco, California. The camera recorded an image every 10 seconds from before sunrise to after sunset and from mid-2009 to mid-2010.  A time stamp showing the local time of day is provided on the lower right. The videos are arranged chronologically, with July 28 shown on the upper left, and January 1 located about about half way down.  Although every day lasts 24 hours, daylight lasts longest in the northern hemisphere in June and the surrounding summer months, a fact which can be seen here as the bottom (and soon top) videos are the first to light up with dawn. The initial darkness in the middle depicts the delayed dawn and fewer daylight hours of winter. In the videos, darkness indicates night, blue depicts clear day, while gray portrays pervasive daytime cloud cover. Many videos show complex patterns of clouds moving across the camera's wide field as that day progresses. As the videos collectively end, sunset and then darkness descend first on the winter days just above the middle, and last on the mid-summer near the bottom.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "A Year of Sky on Earth",
-      "url": "https://player.vimeo.com/video/32095756?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/32095756"
   },
   {
       "copyright": "Máximo Ruiz",
@@ -2016,7 +2016,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "130 Years of Earth Surface Temperatures",
-      "url": "//www.youtube.com/embed/lV8PI4R5nI4?rel=0"
+      "url": "https://www.youtube.com/embed/lV8PI4R5nI4"
   },
   {
       "copyright": "Adam Block",
@@ -2063,7 +2063,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Leaving Earth",
-      "url": "//www.youtube.com/embed/rFDjAfwmWKM?rel=0"
+      "url": "https://www.youtube.com/embed/rFDjAfwmWKM"
   },
   {
       "date": "2013-08-06",
@@ -2459,7 +2459,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Rotating Moon from LRO",
-      "url": "//www.youtube.com/embed/sNUNB6CMnE8?rel=0"
+      "url": "https://www.youtube.com/embed/sNUNB6CMnE8"
   },
   {
       "date": "2013-09-17",
@@ -2592,7 +2592,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Mysterious Green Patches on the Sky",
-      "url": "//www.youtube.com/embed/rWAp-RHUAIc?rel=0"
+      "url": "https://www.youtube.com/embed/rWAp-RHUAIc"
   },
   {
       "copyright": "Jade Scope Observatory",
@@ -3157,7 +3157,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Comet ISON Rising",
-      "url": "//www.youtube.com/embed/fPNriMnVi5M?rel=0"
+      "url": "https://www.youtube.com/embed/fPNriMnVi5M"
   },
   {
       "date": "2013-11-28",
@@ -3180,10 +3180,10 @@ const images =
   {
       "date": "2013-11-30",
       "explanation": "After failing to appear for Sun staring spacecraft at perihelion, its harrowing closest approach to the Sun, sungrazing Comet ISON was presumed lost. But ISON surprised observers yesterday as material still traveling along the comet's trajectory became visible and even developed an extensive fan-shaped dust tail. Edited and processed to HD format, this video (vimeo, youtube) is composed of frames from the SOHO spacecraft's coronographs. It follows the comet in view of the wide (blue tint) and narrow (red tint) field cameras in the hours both before and after perihelion passage. In both fields, overwhelming sunlight is blocked by a central occulting disk. A white circle indicates the Sun's positon and scale. With questions to be answered and the tantalizing possibility that a small cometary nucleus has survived in whole or part, surprising comet ISON will be rising before dawn in planet Earth's skies in the coming days.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Surprising Comet ISON",
-      "url": "//player.vimeo.com/video/80568171?portrait=0"
+      "url": "https://player.vimeo.com/video/80568171"
   },
   {
       "date": "2013-12-01",
@@ -3423,7 +3423,7 @@ const images =
       "media_type": "video",
       "service_version": "v1",
       "title": "Phobos 360",
-      "url": "//www.youtube.com/embed/7MMOCw21D4w?rel=0"
+      "url": "https://www.youtube.com/embed/7MMOCw21D4w"
   },
   {
       "copyright": "Adam Block",
@@ -3459,10 +3459,10 @@ const images =
       "copyright": "Terje S�rgjerd Music: Gladiator Soundtrack: Now we are Free",
       "date": "2013-12-29",
       "explanation": "Sometimes, after your eyes adapt to the dark, a spectacular sky appears. Such was the case in 2011 March when one of the largest auroral displays in recent years appeared over northern locations like the border between Norway and Russia. Pictured in the above time-lapse movie, auroras flow over snow covered landscapes, trees, clouds, mountains and lakes found near Kirkenes, Norway. Many times the auroras are green, as high energy particles strike the Earth's atmosphere, causing the air to glow as electrons resettle into their oxygen hosts.  Other colors are occasionally noticeable as atmospheric nitrogen also becomes affected. In later sequences the Moon and rising stars are also visible. With the Sun currently hovering near its time of maximum activity, there may be many opportunities to see similarly  spectacular auroras personally, even from areas much closer to the equator.    Free lecture: APOD editor to speak in NYC on Jan. 3",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Time-Lapse Auroras Over Norway",
-      "url": "//player.vimeo.com/video/21294655?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/21294655"
   },
   {
       "copyright": "Jos LeysMathematical Imagery",

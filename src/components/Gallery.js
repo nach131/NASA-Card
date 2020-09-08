@@ -27,23 +27,57 @@ function Gallery({ images }) {
   //   const res = str.slice(30,41);
   // console.log(res)
 
+  // function Video() {
+  //   if (imgMedia === 'video'||'vimeo' ) {
+  //     return (
+  //       <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+  //         <iframe title={imgTitle} src={urlImage}
+  //           alt={imgTitle} allowfullscreen="">
+  //         </iframe>
+  //       </div>
+  //     )
+  //   } else{
+  //     return (
+
+  //       <a href={urlHDimage} target="_blank" rel="noopener noreferrer">
+  //         <img src={urlImage} alt={imgTitle} />
+  //       </a>
+  //     )
+  //   }
+  // }
+
   function Video() {
-    if (imgMedia === 'video' || 'vimeo') {
-      return (
-        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-          <iframe title={imgTitle} src={urlImage}
-            alt={imgTitle} allowfullscreen="">
-          </iframe>
-        </div>
-      )
-    } else {
-      return (
-        <a href={urlHDimage} target="_blank" rel="noopener noreferrer">
-          <img src={urlImage} alt={imgTitle} />
-        </a>
-      )
+    switch (imgMedia) {
+      case "video":
+        return (
+          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+            <iframe title={imgTitle} src={urlImage}
+              alt={imgTitle} allowfullscreen="">
+            </iframe>
+          </div>
+        );
+      case "vimeo":
+        return (
+          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+            <iframe title={imgTitle} src={urlImage}
+              alt={imgTitle} allowfullscreen="">
+            </iframe>
+          </div>
+        )
+      case "html":
+        return (
+        <a href={urlImage} target="_blank" rel="noopener noreferrer">{imgTitle} </a>
+          )
+      default:
+        return (
+          <a href={urlHDimage} target="_blank" rel="noopener noreferrer">
+            <img src={urlImage} alt={imgTitle} />
+          </a>
+        )
     }
   }
+
+
   function ImgVideo({ media, url }) {
     // console.log(url)
     if (media === 'video') {
@@ -60,8 +94,7 @@ function Gallery({ images }) {
     } else if (media === 'vimeo') {
       const imgvimeo = url.slice(31, 40);
       const httpvimeo = `https://vumbnail.com/${imgvimeo}.jpg`;
-    
-      return(
+      return (
         <>
           <div className="video-gallery-overlay">
             <img src={play} className="video-play-gallery" />
@@ -69,7 +102,7 @@ function Gallery({ images }) {
           <img className="img-gallery" alt="it's a video" src={httpvimeo} />
         </>
       )
-    }else {
+    } else {
       return (
         <img alt=" Upps !!!" src={url} />
       )
@@ -101,7 +134,6 @@ function Gallery({ images }) {
           <p className="p-modal">
             {imgExpl}
           </p>
-
         </Modal.Footer>
       </Modal>
     </React.Fragment>

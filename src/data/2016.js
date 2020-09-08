@@ -2641,7 +2641,7 @@ const images = [
   {
       "date": "2016-10-03",
       "explanation": "What would it be like to fly around a comet nucleus? To find out, just wait for your WebGL-compatible browser to load a detailed digital model of Comet 67P and then -- go exploring! With a standard mouse, the left button allows you to rotate the comet, the right button allows you to move the comet around, and the scroll wheel allows you to zoom in.  ESA's robotic Rosetta spacecraft orbited Comet C67/P Churyumov-Gerasimenko from mid-2014 until last Friday, when, after a remarkable and successful mission, it was intentionally set down on the surface and powered down.  Among many notable scientific achievements, Rosetta allowed humanity to better understand where comet jets form on comets as they near the Sun.   Transparent Science: Browse 1,350+ codes in the Astrophysics Source Code Library",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "Explore Rosetta's Comet",
       "url": "http://sci.esa.int/comet-viewer/"
@@ -2708,7 +2708,7 @@ const images = [
       "copyright": "Cameron Beccarioearth.nullschool.net\n Data & Processing (abridged): \nGFS & \nUS National Weather Service  \n(NOAA); \nGEOS-5 & Goddard Space Flight Center \n(NASA)\n",
       "date": "2016-10-10",
       "explanation": "Which way is the wind blowing? The featured map can tell you this and much more, no matter your location on planet Earth. The dynamic map displays supercomputer forecasts drawn from multiple sources of global satellite data updated every three hours. Bright swirls usually indicate low pressure systems with high wind speeds, including dramatic cyclones, hurricanes and typhoons.  Although the globe can be rotated interactively here, to obtain full interactivity -- including the ability to zoom -- you should click the word \"earth\" on the lower left or send your browser directly to https://earth.nullschool.net.  The \"earth\" control panel there further allows you to overlay temperature, humidity, pressure, precipitation, and carbon dioxide maps, or even switch to displaying higher altitude wind speeds or ocean currents. In particular during times of rapid change, the displayed maps may be outdated or inaccurate.    Updates: NASA Coverage of Hurricane Matthew",
-      "media_type": "video",
+      "media_type": "html",
       "service_version": "v1",
       "title": "The Winds of Earth",
       "url": "https://earth.nullschool.net/"

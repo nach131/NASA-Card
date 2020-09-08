@@ -693,10 +693,10 @@ const images =
       "copyright": "Cassini Imaging TeamISSJPLESANASAS. Van Vuuren\nMusic:\nAdagio for Strings\n(NY Philharmonic)\n",
       "date": "2011-03-15",
       "explanation": "What would it look like to approach Saturn in a spaceship? One doesn't have to just imagine -- the Cassini spacecraft did just this in 2004, recording thousands of images along the way, and thousands more since entering orbit. Recently, some of these images have been digitally tweaked, cropped, and compiled into the above inspiring video which is part of a larger developing IMAX movie project named Outside In.  In the last sequence, Saturn looms increasingly large on approach as cloudy Titan swoops below. With Saturn whirling around in the background, Cassini is next depicted flying over Mimas, with large Herschel Crater clearly visible. Saturn's majestic rings then take over the show as Cassini crosses Saturn's thin ring plane. Dark shadows of the ring appear on Saturn itself. Finally, the enigmatic ice-geyser moon Enceladus appears in the distance and then is approached just as the video clip ends.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Cassini Approaches Saturn",
-      "url": "https://player.vimeo.com/video/11386048?title=0&byline=0&portrait=0&color=ffffff"
+      "url": "https://player.vimeo.com/video/11386048"
   },
   {
       "copyright": "Ken Crawford",
@@ -819,7 +819,7 @@ const images =
       "copyright": "Terje S�rgjerd Music: Gladiator Soundtrack: Now we are Free",
       "date": "2011-03-28",
       "explanation": "Sometimes, after your eyes adapt to the dark, a spectacular sky appears. Such was the case earlier this month when one of the largest auroral displays in recent years appeared over northern locations like the border between Norway and Russia. Pictured in the above time-lapse movie, auroras flow over snow covered landscapes, trees, clouds, mountains and lakes found near Kirkenes, Norway. Many times the auroras are green, as high energy particles strike the Earth's atmosphere, causing the air to glow as electrons recombine with their oxygen hosts.  Other colors are occasionally noticeable as atmospheric nitrogen also becomes affected. In later sequences the Moon and rising stars are also visible. With the Sun expected to become ever more active over the next few years, there may be many opportunities to see similarly  spectacular auroras personally, even from areas much closer to the equator.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Time-Lapse Auroras Over Norway",
       "url": "https://player.vimeo.com/video/21294655"
@@ -1281,10 +1281,10 @@ const images =
       "copyright": "Daniel López",
       "date": "2011-05-16",
       "explanation": "If you could sit back and watch clouds and the sky move all night and day, what might you see? One answer from the island of Tenerife, captured over the course of the year, includes sequences that are not only breathtaking but instructive.  Visible in the above time-lapse movie include clouds that seem to flow like water, a setting sun that shows numerous green flashes, the Milky Way Galaxy rising behind towering plants, a colorful double fogbow, lenticular clouds that appear stationary near their mountain peaks, and colorful moon coronas.  The above video was shot solely from the Teide National Park on Tenerife in the Canary Islands of Spain, off the north west coast of Africa.  The video also features an unusual type of plant in several scenes -- can you identify it?",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Time Lapse Clouds and Sky Over the Canary Islands",
-      "url": "https://player.vimeo.com/video/23205323?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/23205323"
   },
   {
       "date": "2011-05-17",
@@ -1543,10 +1543,10 @@ const images =
   {
       "date": "2011-06-13",
       "explanation": "What has the Cassini orbiter seen since arriving at Saturn? The above music video shows some of the highlights. In the first time-lapse sequence (00:07), a vertical line appears that is really Saturn's thin rings seen nearly edge-on.  Soon some of Saturn's moon shoot past.  The next sequence (00:11) features Saturn's unusually wavy F-ring that is constrained by the two shepherd moons that are also continually perturbing it.  Soon much of Saturn's extensive ring system flashes by, sometimes juxtaposed to the grandeur of the immense planet itself. Cloud patterns on Titan (00:39) and Saturn (00:41) are highlighted. Clips from flyby's of several of Saturn's moon are then shown, including Phoebe, Mimas, Epimetheus, and Iapetus. In other sequences, moons of Saturn appear to pass each other as they orbit Saturn. Background star fields seen by Cassini are sometimes intruded upon by bright passing moons. The robotic Cassini spacecraft has been revolutionizing humanity's knowledge of Saturn and its moons since 2004.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Views from Cassini at Saturn",
-      "url": "https://player.vimeo.com/video/24410924?title=0&byline=0&portrait=0&color=000"
+      "url": "https://player.vimeo.com/video/24410924"
   },
   {
       "date": "2011-06-14",
@@ -1741,10 +1741,10 @@ const images =
       "copyright": "Alex Cherney Music:",
       "date": "2011-07-04",
       "explanation": "Clouds and sky both show illuminating changes during this time lapse video from the south of Australia. In the foreground are scenes visible over a rocky coastline toward the Southern Ocean. Dark clouds flow across the sky, sometimes from different directions, sometimes blocking background starlight, but other times causing stars to appear to flare as they move in front. In the first sequence, looking toward the southwest, a nearly vertical band of zodiacal light is seen at sunset just before the band of the Milky Way Galaxy appears to settle into the sea.  Soon the unusual dark patch of the Coal Sack Nebula can be seen on the Milky Way band, near the famous Southern Cross. Later, looking toward the southeast at about 2:10 in the video, Orion can be seen rising appearing nearly perpendicular to  how it rises in northern skies. The composite video, winner of an award STARMUS astrophotography competition, took over a year to compile in 2009 and 2010 from over 30 hours of exposure.   Mini-mystery: what are those lights moving along the horizon?",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Southern Ocean Sky",
-      "url": "https://player.vimeo.com/video/24253126?portrait=0"
+      "url": "https://player.vimeo.com/video/24253126"
   },
   {
       "copyright": "Juan Carlos Casado",
@@ -1807,10 +1807,10 @@ const images =
       "copyright": "Jean-Luc DauvergneCiel et Espace Music: Space-Music",
       "date": "2011-07-11",
       "explanation": "If the full Moon suddenly faded, what would you see? The answer during the total lunar eclipse last month was recorded in a dramatic time lapse video from Tajikistan. During a total lunar eclipse, the Earth moves between the Moon and the Sun, causing the moon to fade dramatically. The Moon never gets completely dark, though, since the Earth's atmosphere refracts some light. As the above video begins, the scene may appear to be daytime and sunlit, but actually it is a nighttime and lit by the glow of the full Moon. As the moon becomes eclipsed and fades, the wind dies down and background stars can be seen reflected in foreground lake. Most spectacularly, the sky surrounding the eclipsed moon suddenly appears to be full of stars and highlighted by the busy plane of our Milky Way Galaxy. The sequence repeats with a closer view, and the final image shows the placement of the eclipsed Moon near the Eagle, Swan, Trifid, and Lagoon nebulas. Nearly two hours after the eclipse started, the moon emerges from the Earth's shadow and its bright full glare again dominates the sky.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "A Total Lunar Eclipse Over Tajikistan",
-      "url": "https://player.vimeo.com/video/25808333?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/25808333"
   },
   {
       "copyright": "Bob Franke",
@@ -2590,10 +2590,10 @@ const images =
   {
       "date": "2011-10-03",
       "explanation": "What if you could fly through the universe and see dark matter? While the technology for taking such a flight remains under development, the technology for visualizing such a flight has taken a grand leap forward with the completion of the Bolshoi Cosmological Simulation. After 6 million CPU hours, the world's seventh fastest supercomputer output many scientific novelties including the above flight simulation. Starting from the relatively smooth dark matter distribution of the early universe discerned from the microwave background and other large sky data sets, the Bolshoi tracked the universe's evolution to the present epoch shown above, given the standard concordance cosmology. The bright spots in the above video are all knots of normally invisible dark matter, many of which contain normal galaxies.  Long filaments and clusters of galaxies, all gravitationally dominated by dark matter, become evident. Statistical comparison between the Bolshoi and current real sky maps of actual galaxies show good agreement. Although the Bolshoi simulation bolsters the existence of dark matter, many questions about our universe remain, including the composition of dark matter, the nature of dark energy, and how the first generation of stars and galaxies formed.   Astrophysicists: Browse the Astrophysics Source Code Library",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Dark Matter Movie from the Bolshoi Simulation",
-      "url": "https://player.vimeo.com/video/21866269?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/21866269"
   },
   {
       "date": "2011-10-04",
@@ -3054,10 +3054,10 @@ const images =
   {
       "date": "2011-11-21",
       "explanation": "What is it like to circle the Earth?  Every 90 minutes, astronauts aboard the International Space Station experience just that. Recently, crew members took a series of light-sensitive videos looking down at night that have been digitally fused to produce the above time-lapse video.  Many wonders of the land and sky are visible in the eighteen sequences, including red aurora above green aurora, lights from many major cities, and stars in the background. Looming at the top of the frame is usually part of the space station itself, sometimes seen re-orienting solar panels. Please help create a useful companion guide for this moving video by identifying landmarks, cities, countries, weather phenomena, and even background constellations that appear.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Around the World in 90 Minutes",
-      "url": "https://player.vimeo.com/video/32001208?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/32001208"
   },
   {
       "copyright": "Juergen Rendtel",
@@ -3197,10 +3197,10 @@ const images =
       "copyright": "IMCCEJL Dauvergne",
       "date": "2011-12-06",
       "explanation": "Observe the graceful twirl of the Solar System's largest planet. Many interesting features of Jupiter's enigmatic atmosphere, including dark bands and light zones, can be followed in detail. A careful inspection will reveal that central clouds rotate slightly faster than clouds toward the poles. The famous Great Red Spot is visible at first but soon rotates out of view, only to return near the movie's end. Other smaller storm systems ocassionally appear. As large as Jupiter is, it rotates in only 10 hours. Our small Earth, by comparison, takes 24 hours to complete a spin cycle. The above high-resolution time-lapse movie was captured over the past year by the one-meter Telescope at the Pic du Midi Observatory in the French Pyrenees. Since hydrogen and helium gas are colorless, and those elements compose most of Jupiter's expansive atmosphere, what trace elements create the observed colors of Jupiter's clouds remains unknown.   Poll: Pick your favorites of last week's APODs",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Jupiter Rotation Movie from Pic du Midi",
-      "url": "https://player.vimeo.com/video/31747706?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/31747706"
   },
   {
       "date": "2011-12-07",

@@ -377,10 +377,10 @@ const images =
       "copyright": "Christian M�lhauser Music:",
       "date": "2012-02-09",
       "explanation": "Have you ever seen an aurora?  Auroras are occurring again with increasing frequency. With the Sun being unusually dormant over the past four years, the amount of Sun-induced auroras has been unusually low. More recently, however, our Sun has become increasingly active and exhibiting a greater abundance of sunspots, flares, and coronal mass ejections. Solar activity like this typically expels charged particles into the Solar System, some of which may trigger Earthly auroras. Two weeks ago, beyond trees and before stars, a solar storm precipitated the above timelapse displays of picturesque auroras above Ravnastua, Skoganvarre and Lakselv, Norway. Curtains of auroral light, typically green, flow, shimmer and dance as energetic particles fall toward the Earth and excite air molecules high up in the Earth's atmosphere. With solar maximum still in the future, there may be even better opportunities to see spectacular auroras personally over the next few years.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Trees, Stars, Aurora!",
-      "url": "https://player.vimeo.com/video/36141149?title=0&byline=0&portrait=0"
+      "url": "https://player.vimeo.com/video/36141149"
   },
   {
       "date": "2012-02-10",
@@ -969,10 +969,10 @@ const images =
       "copyright": "Michael Kunze",
       "date": "2012-04-11",
       "explanation": "Why don't those stars move? Stars in the sky will typically appear to rise and set as the Earth turns. Those far to the north or south will appear to circle the pole. If you look closely at the above time-lapse movie, however, there are points of light that appear stationary. These objects are not stars but human-launched robotic spacecraft that remain fixed high above the Earth's equator. Called geostationary satellites, they don't fall down because they do orbit the Earth -- they just orbit at exactly the same speed that the Earth rotates.  The orbital distance where this is possible is much farther than the International Space Station but much closer than the Moon. The video was taken from one of the highest revolving restaurants in the world located on the Mittelallalin in the Swiss Alps. In the foreground is a mountain known as the Allalinhorn.  An even closer inspection will show that the geostationary satellites flash with glints of reflected sunlight. The satellites also all appear on a single line -- actually the projection of the Earth's equator onto the sky.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Geostationary Satellites Beyond the Alps",
-      "url": "https://player.vimeo.com/video/39536582?title=0&byline=0&portrait=0&autoplay=1"
+      "url": "https://player.vimeo.com/video/39536582"
   },
   {
       "date": "2012-04-12",
@@ -1159,10 +1159,10 @@ const images =
       "copyright": "Jorge ChamPHD Comics",
       "date": "2012-05-01",
       "explanation": "What is all this fuss about the Higgs boson? The physics community is abuzz that a fundamental particle expected by the largely successful Standard Model of particle physics may soon be found by the huge Large Hadron Collider (LHC) at CERN in Europe. The term boson refers to a type of fundamental particle with similarities to the photon, while Higgs refers to Peter Higgs, a physicist who among others published research predicting the mechanism through which such a particle might act. The above animated cartoon explains in humorous but impressive detail why the Higgs boson is expected, and one method that the Large Hadron Collider is using to find it. Although some rumors hint that preliminary traces of the Higgs boson are already being found, even not finding this unusual particle would open the door to a new fundamental understanding of how our universe works.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Higgs Boson Explained by Cartoon",
-      "url": "https://player.vimeo.com/video/41038445?portrait=0&color=c8b3df"
+      "url": "https://player.vimeo.com/video/41038445"
   },
   {
       "date": "2012-05-02",
@@ -1224,10 +1224,10 @@ const images =
       "copyright": "Daniel L�pezEl Cielo de Canarias Music:",
       "date": "2012-05-08",
       "explanation": "What's moving? Time lapse videos of the sky can be quite spectacular when they last long enough for stars, planets, aurora, and clouds to appear to move in just a few seconds. Pictured above, however, astrovideographer Daniel L�pez not only treats us to several inspiring time lapse videos of the night sky, but shows us how he used sliders and motorized cranes to move the imaging cameras themselves, creating a thrilling three-dimensional sense of depth. The video sequences were taken from Tenerife on the Canary Islands of Spain over the past two months, and show scenes including sunset shadows approaching Observatorio del Teide, the Milky Way shifting as the sky rotates, bright planets Venus and trailing Jupiter setting, a reddened Moon rising through differing layers of atmospheric refraction, the MAGIC gamma-ray telescopes slewing to observe a new source, and unusual foreground objects including conic Echium wildpretii plants, unusual rock formations, and a spider moving about its web.  The video concludes by showing the Belt of Venus descending on Mt. Teide as the morning sun rises.   New Mirror: APOD is now available in Indonesian from Indonesia.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "The Light of Stars",
-      "url": "https://player.vimeo.com/video/37752523?title=0&byline=0&portrait=0&color=c8b3df&autoplay=1"
+      "url": "https://player.vimeo.com/video/37752523"
   },
   {
       "date": "2012-05-09",
@@ -1946,10 +1946,10 @@ const images =
       "copyright": "Tom A. WarnerZTResearchwww.weathervideoHD.TV",
       "date": "2012-07-23",
       "explanation": "How fast is lightning? Lightning, in fact, moves not only too fast for humans to see, but so fast that humans can't even tell which direction it is moving. The above lightning stroke did not move too fast, however, for this extremely high time resolution video to resolve. Tracking at an incredible 7,207 frames per second, actual time can be seen progressing at the video bottom. The above lightning bolt starts with many simultaneously creating ionized channels branching out from an negatively charged pool of electrons and ions that has somehow been created by drafts and collisions in a rain cloud. About 0.015 seconds after appearing -- which takes about 3 seconds in the above time-lapse video -- one of the meandering charge leaders makes contact with a suddenly appearing positive spike moving up from the ground and an ionized channel of air is created that instantly acts like a wire. Immediately afterwards, this hot channel pulses with a tremendous amount of charges shooting back and forth between the cloud and the ground, creating a dangerous explosion that is later heard as thunder. Much remains unknown about lightning, however, including details of the mechanism that separates charges.   Follow APOD on: Facebook (Daily) (Sky) (Spanish) or Google Plus (Daily) (River)",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Lightning Captured at 7,207 Images per Second",
-      "url": "https://player.vimeo.com/video/28457062?color=ffffff"
+      "url": "https://player.vimeo.com/video/28457062"
   },
   {
       "date": "2012-07-24",
@@ -2078,10 +2078,10 @@ const images =
   {
       "date": "2012-08-06",
       "explanation": "Have you ever seen the night sky change? It does -- sometimes in beautiful and unexpected ways. To see it, though, usually requires patience. The above award winning video shows several of the possible changes in dramatic fashion with a time lapse video. Visible are sunset-illuminated clouds moving, stars of vivid colors rising, the long tail of a Comet Lovejoy rising, bright satellites crossing, a meteor exploding, a distant lightning storm approaching, skyscapes including the Magellanic Clouds rotating, and a fisheye sky rotating while the foreground becomes illuminated by moonlight. Frequently featuring an artistic human sculpture in the foreground and the southern sky in the background, the video closes with a time lapse clip of a total lunar eclipse. If you can identify any more of the sky events depicted -- or any of the landscapes shown -- please illuminate them with a comment.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Nocturnal: Scenes from the Southern Night",
-      "url": "https://player.vimeo.com/video/45856570?color=ffffff"
+      "url": "https://player.vimeo.com/video/45856570"
   },
   {
       "date": "2012-08-07",
@@ -3285,10 +3285,10 @@ const images =
       "copyright": "Colin Legg",
       "date": "2012-12-10",
       "explanation": "Have you ever experienced a total eclipse of the Sun?  The above time-lapse movie depicts such an eclipse in dramatic detail as visible from Australia last month. As the video begins, a slight dimming of the Sun and the surrounding Earth is barely perceptible. Suddenly, as the Moon moves to cover nearly the entire Sun, darkness sweeps in from the left -- the fully blocked part of the Sun.  At totality, only the bright solar corona extends past the edges of the Moon, and darkness surrounds you. Distant horizons are still bright, though, as they are not in the darkest part of the shadow.  At mid-totality the darkness dips to the horizon below the eclipsed Sun, created by the shadow cone -- a corridor of shadow that traces back to the Moon. As the total solar eclipse ends -- usually after a few minutes -- the process reverses and Moon's shadow moves off to the other side. Solar eclipses can frequently be experienced at gatherings organized along the narrow eclipse path as well as specialized cruises and plane flights.",
-      "media_type": "video",
+      "media_type": "vimeo",
       "service_version": "v1",
       "title": "Time-Lapse: A Total Solar Eclipse",
-      "url": "https://player.vimeo.com/video/53641212?badge=0&color=ffffff"
+      "url": "https://player.vimeo.com/video/53641212"
   },
   {
       "date": "2012-12-11",
