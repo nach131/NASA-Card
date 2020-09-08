@@ -43,6 +43,7 @@ function Menu() {
               <NavDropdown.Item href="/year/2017">2017</NavDropdown.Item>
               <NavDropdown.Item href="/year/2018">2018</NavDropdown.Item>
               <NavDropdown.Item href="/year/2019">2019</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2020">2020</NavDropdown.Item>
             </NavDropdown>
 
             {/* <Form className="align-self-center"

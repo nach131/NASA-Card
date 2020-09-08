@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Gallery from '../components/Gallery'
+import Img2020 from '../data/2020'
 import Img2019 from '../data/2019'
 import Img2018 from '../data/2018'
 import Img2017 from '../data/2017'
@@ -17,6 +18,8 @@ class PictureDay extends Component {
   // state = {  }
   render() {
     switch (this.props.match.path) {
+      case "/year/2020":
+        return <Gallery images={Img2020} />;
       case "/year/2019":
         return <Gallery images={Img2019} />;
       case "/year/2018":
@@ -37,8 +40,8 @@ class PictureDay extends Component {
         return <Gallery images={Img2011} />;
       case "/year/2010":
         return <Gallery images={Img2010} />;
-        default:
-          return <Gallery images={Img2010} />;
+      default:
+        return <Gallery images={Img2010} />;
     }
   }
 }

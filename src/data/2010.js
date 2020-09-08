@@ -187,9 +187,10 @@ const images =
       "copyright": "American Museum of Natural History",
       "date": "2010-01-20",
       "explanation": "What would it look like to travel across the known universe? To help humanity visualize this, the American Museum of Natural History has produced a modern movie featuring many visual highlights of such a trip. The video starts in Earth's Himalayan Mountains and then dramatically zooms out, showing the orbits of Earth's satellites, the Sun, the Solar System, the extent of humanities first radio signals, the Milky Way Galaxy, galaxies nearby, distant galaxies, and quasars.  As the distant surface of the microwave background is finally reached, radiation is depicted that was emitted billions of light years away and less than one million years after the Big Bang.  Frequently using the Digital Universe Atlas, every object in the video has been rendered to scale given the best scientific research in 2009, when the video was produced. The film has similarities to the famous Powers of Ten video that has been a favorite of many space enthusiasts for a generation.    digg_url = 'http://apod.nasa.gov/apod/ap100120.html'; digg_skin = 'compact';",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "The Known Universe"
+      "title": "The Known Universe",
+      "url": "https://www.youtube.com/embed/17jymDn0W6U"
   },
   {
       "copyright": "Ken Crawford",
@@ -224,9 +225,10 @@ const images =
   {
       "date": "2010-01-24",
       "explanation": "What would it be like to coast by Jupiter and watch it rotate?  This was just the experience of the New Horizons spacecraft as it approached and flew by Jupiter in 2007.  Clicking on the image will bring up a movie of what the robotic spacecraft saw. Visible above in the extensive atmosphere of the Solar System's largest planet are bands and belts of light and dark clouds, as well as giant rotating storm systems seen as ovals.  Other movies compiled by New Horizons and other passing spacecraft have captured the clouds swirling and moving relative to themselves.  Jupiter has a diameter of about eleven times that of our Earth, and rotates once in about 10 hours. The robotic New Horizons spacecraft, launched four years ago last week, continues to speed toward the outer Solar System and has recently passed the halfway point between Earth and Pluto. New Horizons will reach Pluto in 2015.   digg_url = 'http://apod.nasa.gov/apod/ap100124.html'; digg_skin = 'compact';",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Watch Jupiter Rotate"
+      "title": "Watch Jupiter Rotate",
+      "url": "https://www.youtube.com/embed/YlD9ULiMz80"
   },
   {
       "date": "2010-01-25",
@@ -1389,9 +1391,10 @@ const images =
       "copyright": "Stéphane Guisard",
       "date": "2010-05-26",
       "explanation": "What's happening above the Cotopaxi volcano in Ecuador? Quite a bit, from the looks of the above one-night, time-lapse movie, taken earlier this month. The majestic volcano is first seen through breaks in fast moving clouds as the movie begins. Soon the clouds have dissipated and a sky filled with stars seems to rotate about the snow-peaked volcano's peak.  The band of our Milky Way Galaxy, the dark Coal Sack nebula, and the Southern Cross can all be seen overhead. Satellites streak by from several directions. Soon thin clouds roll by and seem to make the brightest stars sparkle. On the volcano (starting at about 1:13 of the movie), the lights of climbers flash. Near the end of the movie, a bright airplane passes over the peak with a residual trail seen drifting away.",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Clouds and Stars over Cotopaxi Volcano in Ecuador"
+      "title": "Clouds and Stars over Cotopaxi Volcano in Ecuador",
+      "url": "https://www.youtube.com/embed/6B0Kd9vk11Y"
   },
   {
       "copyright": "Osservatorio MTM",
@@ -1961,9 +1964,10 @@ const images =
   {
       "date": "2010-07-25",
       "explanation": "What are these humans doing?  Dancing.  Many humans on Earth exhibit periods of happiness, and one method of displaying happiness is dancing. Happiness and dancing transcend political boundaries and occur in practically every human society. Above, Matt Harding traveled through many nations on Earth, started dancing, and filmed the result.  The video is perhaps a dramatic example that humans from all over planet Earth feel a common bond as part of a single species. Happiness is frequently contagious -- few people are able to watch the above video without smiling.",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Happy People Dancing on Planet Earth"
+      "title": "Happy People Dancing on Planet Earth",
+      "url": "https://www.youtube.com/embed/zlfKdbWwruY"
   },
   {
       "date": "2010-07-26",
@@ -2258,9 +2262,10 @@ const images =
   {
       "date": "2010-08-25",
       "explanation": "Do other rich planetary systems exist? Our Solar System has the most planets of any known star, most probably because it is so hard to detect planets around other stars. Sensitive measurements, though, have now uncovered a slight but complex wobble of the Sun-like star HD 10180 indicating that it has at least five planets and possibly more, making it the richest extra-solar planetary system yet known. HD 10180's planets were discovered in years of data using the sensitive HARPS spectrograph attached to the ESO's 3.6-meter telescope in La Silla, Chile. The planetary system appears quite different than our Solar System, since all of HD 10180's discovered planets have Neptune-like masses but orbit inside the distance of Mars. An artist's depiction of flying into this system is shown in the above video. In the future, more sensitive data taken over longer time periods may extend the star-wobble detection technique into the realm of uncovering more distant and more Earth-like planets.",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "HD 10180: Richest Yet Planetary System Discovered"
+      "title": "HD 10180: Richest Yet Planetary System Discovered",
+      "url": "https://www.youtube.com/embed/5kHJMnWPKdI"
   },
   {
       "copyright": "Matthew T. Russell",
@@ -3328,9 +3333,10 @@ const images =
   {
       "date": "2010-12-15",
       "explanation": "Click the arrow and watch an unusually long filament explode out from the Sun.  The filament had been seen hovering over the Sun's surface for over a week before it erupted earlier this month.  The image sequence was taken by the Earth-orbiting Solar Dynamics Observatory (SDO) in one color of ultraviolet light specifically emitted by helium, and another color of X-ray light specifically emitted by iron.  The explosion created Coronal Mass Ejections which dispersed high energy plasma into the Solar System.  This plasma cloud, though, missed the Earth and so did not cause auroras.  The above eruption and an unusually expansive eruption that occurred in August are showing how widely separated areas of the Sun can sometimes act in unison.  Explosions like this will likely become more common over the next few years as our Sun moves toward Solar Maximum activity.   Best Astronomy Images: APOD Editor to speak in Philadelphia on Jan 5 and New York City on Jan 7",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "A Huge Solar Filament Erupts"
+      "title": "A Huge Solar Filament Erupts",
+      "url": "https://www.youtube.com/embed/jciUYQHa6-0"
   },
   {
       "copyright": "David A. Harvey",

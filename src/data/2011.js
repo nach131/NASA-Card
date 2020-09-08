@@ -220,9 +220,10 @@ const images =
   {
       "date": "2011-01-23",
       "explanation": "The Peekskill meteor of 1992 was captured on 16 independent videos and then struck a car.  Documented as brighter than the full Moon, the spectacular fireball crossed parts of several USA states during its 40 seconds of glory before landing in New York.  A video of the fireball beyond a high school football game in Johnstown, Pennsylvania, USA, is pictured above. The resulting meteorite is imaged here, and was found to be composed of dense rock and has the size and mass of an extremely heavy bowling ball.  If you are lucky enough to find a meteorite just after impact, do not pick it up -- parts of it are likely to be either very hot or very cold.  Tracking meteors origins and destinations might be easier in this modern digital age, but many security cameras videos that likely caught a bright fireball are not preserved. If you would like to volunteer to help meteor science by locating images and videos of newly occurring fireballs within 48 hours after they occur, here is a place to sign up.   Students: See lectures on strange and cool physics",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Peekskill Fireball Video: Johnstown"
+      "title": "Peekskill Fireball Video: Johnstown",
+      "url": "https://www.youtube.com/embed/5S3WfNDD59Y"
   },
   {
       "copyright": "ESADLRFU BerlinG. Neukum",
@@ -302,9 +303,10 @@ const images =
       "copyright": "Eames Office",
       "date": "2011-02-01",
       "explanation": "How different does the universe look on small, medium, and large scales?  The most famous short science film of its generation gives breathtaking comparisons. That film, Powers of Ten, originally created in the 1960s, has now been officially posted to YouTube and embedded above.  Please click the above arrow to see the nine minute movie for yourself.  From a picnic blanket near Chicago out past the Virgo Cluster of Galaxies, every ten seconds the film zooms out to show a square a factor of ten times larger on each side. The video then reverses, zooming back in a factor of ten every two seconds and ends up inside a single proton. The Powers of Ten sequence is actually based on the book Cosmic View by Kees Boeke in 1957, as is a similar but mostly animated film Cosmic Zoom that was also created in the late 1960s. The changing perspectives are so enthralling and educational that sections have been recreated using more modern computerized techniques, including the first few minutes of the movie Contact, and in a short digital video called The Known Universe created last year for the American Museum of Natural History. Ray and husband Charles Eames, the film's creators, were known as quite visionary spirits and even invented their own popular chair.",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Powers of Ten"
+      "title": "Powers of Ten",
+      "url": "https://www.youtube.com/embed/0fKBhvDjuy0"
   },
   {
       "copyright": "David Kaplan",
@@ -497,9 +499,10 @@ const images =
       "copyright": "morn1415",
       "date": "2011-02-22",
       "explanation": "How big is our Sun compared to other stars? In a dramatic and popular video featured on YouTube, the relative sizes of planets and stars are shown from smallest to largest. The above video starts with Earth's Moon and progresses through increasingly larger planets in our Solar System.  Next, the Sun is shown along as compared to many of the brighter stars in our neighborhood of the Milky Way Galaxy. Finally, some of the largest stars known spin into view. Note that the true sizes of most stars outside of the Sun and Betelgeuse are not known by direct observation, but rather inferred by measurements of their perceived brightness, temperature, and distance. Although an inspiring learning tool that is mostly accurate, APOD readers are encouraged to complete the learning experience -- and possibly help make future versions more accurate -- by pointing out slight inaccuracies in the video.",
-      "media_type": "other",
+      "media_type": "video",
       "service_version": "v1",
-      "title": "Star Size Comparisons"
+      "title": "Star Size Comparisons",
+      "url": "https://www.youtube.com/embed/fKTu6B4Rgek"
   },
   {
       "date": "2011-02-23",

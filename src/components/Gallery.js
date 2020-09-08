@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
+import play from '../images/play-alt.svg'
+
 
 function Gallery({ images }) {
   const [show, setShow] = useState(false);
@@ -45,14 +47,19 @@ function Gallery({ images }) {
   function ImgVideo({ media, url }) {
     // console.log(url)
     if (media === 'video') {
-       const imgvideo = url.slice(30,41);
-       const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`
+      const imgvideo = url.slice(30, 41);
+      const http = `http://img.youtube.com/vi/${imgvideo}/0.jpg`
       return (
-        <img alt="sample text" src={http} /> 
+        <>
+          <div className="video-gallery-overlay">
+            <img src={play} className="video-play-gallery" />
+          </div>
+          <img className="img-gallery" alt="it's a video" src={http} />
+        </>
       )
     } else {
       return (
-        <img alt="sample text" src={url} />
+        <img alt=" Upps !!!" src={url} />
       )
     }
   }
