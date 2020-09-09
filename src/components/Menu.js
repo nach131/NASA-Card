@@ -33,6 +33,16 @@ function Menu() {
           <Nav className="">
       
             <NavDropdown title="Astronomy Picture of the Day" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/year/2000">2000</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2001">2001</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2002">2002</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2003">2003</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2004">2004</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2005">2005</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2006">2006</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2007">2007</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2008">2008</NavDropdown.Item>
+              <NavDropdown.Item href="/year/2009">2009</NavDropdown.Item>
               <NavDropdown.Item href="/year/2010">2010</NavDropdown.Item>
               <NavDropdown.Item href="/year/2011">2011</NavDropdown.Item>
               <NavDropdown.Item href="/year/2012">2012</NavDropdown.Item>

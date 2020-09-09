@@ -18,7 +18,16 @@ import Year2013 from '../pages/PictureDay'
 import Year2012 from '../pages/PictureDay'
 import Year2011 from '../pages/PictureDay'
 import Year2010 from '../pages/PictureDay'
-import vimeo from '../pages/PictureDay'
+import Year2009 from '../pages/PictureDay'
+import Year2008 from '../pages/PictureDay'
+import Year2007 from '../pages/PictureDay'
+import Year2006 from '../pages/PictureDay'
+import Year2005 from '../pages/PictureDay'
+import Year2004 from '../pages/PictureDay'
+import Year2003 from '../pages/PictureDay'
+import Year2002 from '../pages/PictureDay'
+import Year2001 from '../pages/PictureDay'
+import Year2000 from '../pages/PictureDay'
 
 
 function App() {
@@ -27,6 +36,16 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/year/2000" component={Year2000} />
+          <Route exact path="/year/2001" component={Year2001} />
+          <Route exact path="/year/2002" component={Year2002} />
+          <Route exact path="/year/2003" component={Year2003} />
+          <Route exact path="/year/2004" component={Year2004} />
+          <Route exact path="/year/2005" component={Year2005} />
+          <Route exact path="/year/2006" component={Year2006} />
+          <Route exact path="/year/2007" component={Year2007} />
+          <Route exact path="/year/2008" component={Year2008} />
+          <Route exact path="/year/2009" component={Year2009} />
           <Route exact path="/year/2010" component={Year2010} />
           <Route exact path="/year/2011" component={Year2011} />
           <Route exact path="/year/2012" component={Year2012} />
@@ -38,7 +57,6 @@ function App() {
           <Route exact path="/year/2018" component={Year2018} />
           <Route exact path="/year/2019" component={Year2019} />
           <Route exact path="/year/2020" component={Year2020} />
-          <Route exact path="/vimeo" component={vimeo} />
           <Route exact path="/ani" component={Animacion} />
           <Route exact path="/sun" component={Ejemplos} />
           <Route exact path="/curiosity" component={Ejemplos} />
