@@ -64,7 +64,7 @@ function Gallery({ images }) {
         return (
           <>
             <div className="video-gallery-overlay">
-              <img src={play} className="video-play-gallery" />
+              <img src={play} className="video-play-gallery" alt=""/>
             </div>
             <img className="img-gallery" alt="it's a video" src={http} />
           </>
@@ -75,19 +75,24 @@ function Gallery({ images }) {
         return (
           <>
             <div className="video-gallery-overlay">
-              <img src={play} className="video-play-gallery" />
+              <img src={play} className="video-play-gallery" alt=""/>
             </div>
             <img className="img-gallery" alt="it's a video" src={httpvimeo} />
           </>
         )
-      case "image":
+        case "html":
+        return (
+          <FontAwesomeIcon className="icon-ext" icon={faExternalLinkAlt} size="9x" />
+        )
+        case "other":
+          return (
+            <FontAwesomeIcon className="icon-ext" icon={faExternalLinkAlt} size="9x" />
+          )
+      default:
         return (
           <img alt="Uppps ... !!!" src={url} />
         )
-      case "html":
-        return (
-          <FontAwesomeIcon icon={faExternalLinkAlt} size="9x" />
-        )
+      
     }
   }
 
@@ -97,7 +102,7 @@ function Gallery({ images }) {
       <div className="content pt-5">
         {images.map((img, i) => (
           <div key={i} className="img-box">
-            <a className="play-padre" href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>
+            <a  href={img.url} onClick={e => handleShow(e, img.url, img.hdurl, img.title, img.explanation, img.media_type)}>
               {/* <img alt="sample text" src={img.url} /> */}
               <ImgVideo media={img.media_type} url={img.url} />
             </a>

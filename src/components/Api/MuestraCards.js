@@ -62,6 +62,7 @@ function CardListItem({ postData }) {
         <div className="video-thumb-overlay">
           <img className="video-play-icon"
             src={play}
+            alt=""
           />
         </div>
       )
