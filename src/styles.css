@@ -446,3 +446,6 @@ img.video-play-gallery {
   transform: translate(-50%, -50%) !important;
   margin: 0 !important;
 }
+a.play-padre {
+  position: relative;
+}
